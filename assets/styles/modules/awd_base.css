@@ -1,0 +1,108 @@
+/** factory/awd_base.css */
+
+/** VARS this is used in js function detailsContentSizesToVar , don't change this!*/
+*{
+	--content-height: 0;
+	--content-width: 0;
+}
+.absolute{
+	position:absolute;
+}
+.relative{
+	position: relative;
+}			
+.fixed{
+	position: fixed;
+}			
+.sticky{
+	position: sticky;
+}
+.absolute,
+.relative,
+.fixed,
+.sticky{
+	inset: 0;
+}
+.display-block{
+	display: block;
+}
+.display-flex{
+	display: flex;
+}	
+.display-none{
+	display: none;
+}
+.display-grid{
+	display: grid;
+}
+.a-underline{
+	text-decoration: underline;
+}
+.a-underline-dashed{
+	text-decoration: underline dashed;
+}
+.a-underline-dotted{
+	text-decoration: underline dotted;
+}
+
+.padding-one{
+	width: inherit;
+	padding-left: 1.6rem;
+}
+.quoted-double::before{
+	content:"\2033";
+	font-size: 1.2em;
+}
+.quoted-double::after{
+	content:"\2036";
+	font-size: 1.2em;
+	position: absolute;
+	height: 0.6em;
+	bottom: 0;
+}
+
+.quoted-single::before{
+	content:"\2018";
+	font-size: 1.2em;
+}
+.quoted-single::after{
+	content:"\2019";
+	font-size: 1.2em;
+	position: absolute;
+	height: 0.6em;
+	bottom: 0;
+}
+
+.ltr-arrow::before{
+	content:"\2192";
+	padding-right: 0.3rem;
+	vertical-align: baseline;
+	font-size: 1.2em;
+}
+.to-right-caret::before{
+	content:"\25BA";
+	position: relative;
+	font-size: 1.2em;
+}
+.to-left-caret::before{
+	content:"\25C0";
+	position: relative;
+	font-size: 1.2em;
+}
+.to-down-caret::before{
+	content:"\25BC";	
+	position: relative;
+	right: 0.2rem;
+	font-size: 1.0em;
+	color: #e2e2e2;
+}
+.to-up-caret::before{
+	content:"\25B2";	
+	position: relative;
+	right: 0.2rem;
+	font-size: 1.0em;
+	color: #e2e2e2;
+}
+
+
+

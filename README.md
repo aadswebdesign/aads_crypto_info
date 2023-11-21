@@ -1,7 +1,7 @@
 ## aads_crypto_opportunity.github.io
 
 **About,**
-<br/>The website is about a trustworthy opportunty to create a passive income.
+<br/>An informative website about a trustworthy opportunty to create a passive income.
 
 **This md file,**
 <br/>Here I will focus just on the html, javascript and css that is used.

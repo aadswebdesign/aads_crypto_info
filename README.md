@@ -7,15 +7,13 @@
 <br/>Here I will focus just on the html, javascript and css that is used.
 
 **html,**
-<br/>It is simple and responsive layout that is feeded with js templates.
+<br/>It is a simple and responsive layout that is feeded with js templates.
 
 **css,**
 <br/>This is vanilla css with not any frameworks involved.
-It has a modular approach (a styles folder with an index.css that imports from a modules subfolder.) 
 
 **javascript,**
 <br/>This is vanile js with not any framework involved.
-It has a modular approach (a scripts folder with an index.js that imports from different subfolders.) 
 
 **structure**
 <br/>index.html

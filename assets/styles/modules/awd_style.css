@@ -47,17 +47,28 @@ body div.agent-string{
 	font-size: 1.2em;
 	background: #a35252;
 	color: #e2e2e2;
+	cursor: pointer;
 	border: 1px solid #c0c0c0;
 }
 .wrap footer .block-one .details-content{
-	top:-2.2rem;
-	padding: 0.3rem 0.3em 0;
-	height: fit-content;
+	top:-2.6rem;
+	padding:0.1em 0.3em 0;
+	gap: 0.4em;
+	height:  1.9em;
 	width: fit-content;
-	background: #f4debd;
+	background: #e2e2e2;
 	border: 1px solid #c0c0c0;
 }
-
+.details-content .cookie-bg{
+	background: url("./../../graphics/icons/cookie.svg") no-repeat center;
+	background-size: contain;	
+	width: 1.6em;
+	height: 1.6em;
+}
+.details-content p{
+	flex-grow: 1;
+	padding-top:  0.2rem;
+}
 .wrap footer .block-two{
 	width: fit-content;
 	padding: 0 0.8rem;

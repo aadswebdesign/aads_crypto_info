@@ -234,7 +234,7 @@ section.top > .separator{
 }
 @media (min-width: 320px) and (max-width: 697px) and (orientation : portrait) {
 	.wrap footer .block-one .details-content.nl{
-		transform: translate(0,-6.0rem);
+		transform: translate(0,-5.5rem);
 	}	
 }
 

@@ -7,7 +7,7 @@ export const template_Actions = async (_obj,page_id)=>{
 		<div class='block-one relative'>
 			<details class='cookie-details relative'>
 				<summary class='to-up-caret relative' title='Open'>No Cookies!</summary>
-				<div class='details-content absolute display-flex'>
+				<div class='details-content en absolute display-flex'>
 					<i class='cookie-bg relative' title='Image is from www.svgrepo.com'></i><p class='relative'>Aside of functional cookies, there are no other cookies used!</p>
 				</div>
 			</details>

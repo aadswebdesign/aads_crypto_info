@@ -1,4 +1,4 @@
-## aads_crypto_info.github.io
+## aads_crypto_info
 
 **About,**
 <br/>An informative website about a trustworthy opportunty to create a passive income.

@@ -54,7 +54,8 @@ body div.agent-string{
 	top:-2.6rem;
 	padding:0.1em 0.3em 0;
 	gap: 0.4em;
-	height:  1.9em;
+	height: fit-content;
+	min-height: 1.9em;
 	width: fit-content;
 	background: #e2e2e2;
 	border: 1px solid #c0c0c0;

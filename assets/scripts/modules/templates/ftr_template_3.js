@@ -8,7 +8,7 @@ export async function ftrTemplateThree(){
 		<div class='block-one relative'>
 			<details class='cookie-details relative'>
 				<summary class='to-up-caret relative' title='Open'>ไม่มีคุกกี้!</summary>
-				<div class='details-content absolute display-flex'>
+				<div class='details-content th absolute display-flex'>
 					<i class='cookie-bg relative' title='ภาพมาจาก www.svgrepo.com'></i><p>นอกเหนือจากคุกกี้ที่ใช้งานได้แล้ว ไม่มีการใช้คุกกี้อื่นๆ!</p>
 				</div>
 			</details>

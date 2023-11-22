@@ -8,7 +8,7 @@ export async function ftrTemplateTwo(){
 		<div class='block-one relative'>
 			<details class='cookie-details relative'>
 				<summary class='to-up-caret relative' title='Open'>Geen Cookies!</summary>
-				<div class='details-content absolute display-flex'>
+				<div class='details-content nl absolute display-flex'>
 					<i class='cookie-bg relative' title='Afbeelding is van www.svgrepo.com'></i><p>Naast functionele cookies worden er geen andere cookies gebruikt!</p>
 				</div>
 			</details>

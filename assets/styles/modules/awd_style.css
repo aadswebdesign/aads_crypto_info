@@ -234,7 +234,7 @@ section.top > .separator{
 }
 @media (min-width: 320px) and (max-width: 697px) and (orientation : portrait) {
 	.wrap footer .block-one .details-content.nl{
-		transform: translate(0,-5.5rem);
+		transform: translate(0,-6.0rem);
 	}	
 }
 
@@ -262,18 +262,18 @@ section.top > .separator{
 }
 @media (min-width: 320px) and (max-width: 604px) and (orientation : landscape) {
 	.wrap footer .block-one .details-content.th{
-		transform: translate(0,-6.5rem);
+		transform: translate(0,-4.5rem);
 	}	
 }
 @media (min-width: 480px) and (max-width: 647px) and (orientation : landscape) {
 	.wrap footer .block-one .details-content.en{
-		transform: translate(0,-6.5rem);
+		transform: translate(0,-4.5rem);
 	}	
 }
 
 @media (min-width: 480px) and (max-width: 664px) and (orientation : landscape) {
 	.wrap footer .block-one .details-content.nl{
-		transform: translate(0,-6.5rem);
+		transform: translate(0,-4.5rem);
 	}	
 }
 

@@ -271,7 +271,7 @@ section.top > .separator{
 		width: calc(100% - 1.0rem);
 	}
 	.wrap main{
-		height: calc(100% -2.6rem);
+		height: calc(100% -1.6rem);
 	}	
 }
 @media (min-width: 320px) and (max-width: 604px) and (orientation : landscape) {
@@ -324,6 +324,6 @@ section.top > .separator{
 		width: calc(100% - 2.0em);
 	}
 	.wrap main{
-		height: calc(100% -2.6rem);
+		height: calc(100% -1.6rem);
 	}	
 }

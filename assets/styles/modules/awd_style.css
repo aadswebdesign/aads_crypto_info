@@ -251,7 +251,7 @@ section.top > .separator{
 	}
 	.wrap footer{
 		height: 2.6rem;
-		top: - 2.6rem;
+		transform: translate(0,-6.5rem);
 		border: 1px solid red;
 	}	
 	.wrap footer .block-two{

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg viewBox="0 0 324 324" xml:space="preserve" height="100%" width="100%" version="1.1" id="Coin_bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+<g>
+	<g>
+		<circle id='coin_circle_1' cx='76' cy='76' r='72' style='fill:#ffcc00;stroke:#d4aa00;stroke-width:4px'></circle>
+		<circle id='coin_circle_2' cx='76' cy='76' r='54' style='fill:none;stroke:#d4aa00;stroke-width:4px'></circle>
+		<path id='coin_path_1' d='M 37,37 113,113' style='fill:none;fill-rule:evenodd;stroke:#d4aa00;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1'></path>
+		<path id='coin_path_2' d='M 113,37 37,113' style='fill:none;fill-rule:evenodd;stroke:#d4aa00;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1'></path>
+	</g>
+	<g style='transform: translate(176px,176px);'>
+		<circle id='coin_circle_3' cx='76' cy='76' r='72' style='fill:#ffcc00;stroke:#d4aa00;stroke-width:4px'></circle>
+		<circle id='coin_circle_4' cx='76' cy='76' r='54' style='fill:none;stroke:#d4aa00;stroke-width:4px'></circle>
+		<path id='coin_path_3' d='M 37,37 113,113' style='fill:none;fill-rule:evenodd;stroke:#d4aa00;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1'></path>
+		<path id='coin_path_4' d='M 113,37 37,113' style='fill:none;fill-rule:evenodd;stroke:#d4aa00;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1'></path>
+	</g>
+</g>
+</svg>

@@ -250,6 +250,7 @@ section.top > .separator{
 		left:calc(50% - 8rem);
 	}
 	.wrap footer{
+		display: relative;
 		height: 2.6rem;
 		z-index: 20;
 	}	

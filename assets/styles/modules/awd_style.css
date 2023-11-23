@@ -245,6 +245,10 @@ section.top > .separator{
 	}	
 }
 @media (min-width: 320px) and (max-width: 647px) and (orientation : portrait) {
+	body{
+		height:90vh;
+	}
+
 	body div.agent-string{
 		width: 16rem;
 		left:calc(50% - 8rem);
@@ -253,7 +257,6 @@ section.top > .separator{
 	.wrap footer{
 		display: relative;
 		height: 2.6rem;
-		transform: translate(0, -10rem);
 	}	
 	.wrap footer .block-two{
 		padding-top: 0.9em;

@@ -1,5 +1,6 @@
 /** factory/awd_style.css */
 html{
+	overflow-x: auto;
 }
 body{
 	width: 100vw;

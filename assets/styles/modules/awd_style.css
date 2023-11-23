@@ -1,5 +1,7 @@
 /** factory/awd_style.css */
-
+html{
+	background: transparent;
+}
 body{
 	width: 100vw;
 	height: 100vh;

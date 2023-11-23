@@ -246,7 +246,7 @@ section.top > .separator{
 }
 @media (min-width: 320px) and (max-width: 647px) and (orientation : portrait) {
 	body{
-		height:95vh;
+		height:93vh;
 	}
 
 	body div.agent-string{

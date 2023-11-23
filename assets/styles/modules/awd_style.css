@@ -4,7 +4,7 @@ html{
 }
 body{
 	width: 100vw;
-	height: 100vh;
+	height: 100%;
 	overflow: hidden;
 	background: rgb(247,251,252);
 	background: -moz-linear-gradient(top, rgba(247,251,252,1) 0%, rgba(217,237,242,1) 60%, rgba(173,217,228,1) 100%);

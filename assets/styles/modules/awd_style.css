@@ -241,6 +241,7 @@ section.top > .separator{
 @media (min-width: 320px) and (max-width: 647px) and (orientation : portrait) {
 	.wrap footer{
 		height: 2.6rem;
+		z-index: 20;
 	}	
 	.wrap footer .block-two{
 		padding-top: 0.9em;
@@ -284,7 +285,11 @@ section.top > .separator{
 	.wrap footer{
 		height: 2.6rem;
 	}	
+	.wrap footer .block-one{
+		height: inherit;
+	}
 	.wrap footer .block-two{
+		height: inherit;
 		padding-top: 0.9em;
 	}
 	/* SECTION TOP -> SEPARATOR */

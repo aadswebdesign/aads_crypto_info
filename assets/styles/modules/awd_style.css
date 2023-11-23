@@ -324,6 +324,7 @@ section.top > .separator{
 		width: calc(100% - 2.0em);
 	}
 	.wrap main{
+		flex-grow: none;
 		height: calc(100% -2.6rem);
 	}	
 }

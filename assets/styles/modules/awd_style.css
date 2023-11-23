@@ -253,6 +253,7 @@ section.top > .separator{
 	.wrap footer{
 		display: relative;
 		height: 2.6rem;
+		transform: translate(0, -10rem);
 	}	
 	.wrap footer .block-two{
 		padding-top: 0.9em;
@@ -295,7 +296,8 @@ section.top > .separator{
 		left:calc(50% - 14rem);
 		width: 28.0rem;
 		height: 5.0rem;
-		border: 1px solid red;
+		display: none;
+		
 	}
 	.wrap footer{
 		height: 2.6rem;

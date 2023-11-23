@@ -1,6 +1,6 @@
 /** factory/awd_style.css */
 html{
-	background: transparent;
+	overflow: hidden;
 }
 body{
 	width: 100vw;

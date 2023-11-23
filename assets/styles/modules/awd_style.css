@@ -73,7 +73,6 @@ body div.agent-string{
 .wrap footer .block-two{
 	width: fit-content;
 	padding: 0 0.8rem;
-	
 }
 
 .wrap footer .block-two small{
@@ -156,9 +155,6 @@ section.top > .separator{
 	height: 0.2rem;
 	background: #eabb74;
 }
-
-
-
 /** Template styles */
 .content-block{
 	top: .5rem;
@@ -170,7 +166,6 @@ section.top > .separator{
 	flex-flow: column;
 	gap: 0.5em;
 	wrap: nowrap;
-
 }
 .content-block header{
 	width: 100%;
@@ -224,7 +219,7 @@ section.top > .separator{
 }
 @media (min-width: 320px) and (max-width: 604px) and (orientation : portrait) {
 	.wrap footer .block-one .details-content.th{
-		transform: translate(0,-5.5rem);
+		transform: translate(0,-6.0rem);
 	}	
 }
 @media (min-width: 320px) and (max-width: 650px) and (orientation : portrait) {
@@ -237,7 +232,6 @@ section.top > .separator{
 		transform: translate(0,-6.5rem);
 	}	
 }
-
 @media (min-width: 320px) and (max-width: 647px) and (orientation : portrait) {
 	.wrap footer{
 		height: 2.6rem;

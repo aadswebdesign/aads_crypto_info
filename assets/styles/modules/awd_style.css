@@ -270,7 +270,7 @@ section.top > .separator{
 		padding: 0.2rem 0 0.5rem;
 		width: calc(100% - 1.0rem);
 	}
-	div.block.page{
+	.wrap main{
 		height: calc(100% -2.6rem);
 	}	
 }
@@ -323,7 +323,7 @@ section.top > .separator{
 		padding: 0.2em 0 0.5em;
 		width: calc(100% - 2.0em);
 	}
-	div.block.page{
+	.wrap main{
 		height: calc(100% -2.6rem);
 	}	
 }

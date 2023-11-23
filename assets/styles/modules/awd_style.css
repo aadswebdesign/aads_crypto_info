@@ -1,6 +1,5 @@
 /** factory/awd_style.css */
 html{
-	overflow: hidden;
 }
 body{
 	width: 100vw;
@@ -251,8 +250,7 @@ section.top > .separator{
 	}
 	.wrap footer{
 		height: 2.6rem;
-		transform: translate(0,-6.5rem);
-		border: 1px solid red;
+		z-index: 20;
 	}	
 	.wrap footer .block-two{
 		padding-top: 0.9em;
@@ -271,6 +269,9 @@ section.top > .separator{
 		padding: 0.2rem 0 0.5rem;
 		width: calc(100% - 1.0rem);
 	}
+	.wrap main{
+		height: calc(100% -2.6rem);
+	}	
 }
 @media (min-width: 320px) and (max-width: 604px) and (orientation : landscape) {
 	.wrap footer .block-one .details-content.th{
@@ -299,8 +300,6 @@ section.top > .separator{
 	}
 	.wrap footer{
 		height: 2.6rem;
-		top: - 2.6rem;
-		border: 1px solid red;
 	}	
 	.wrap footer .block-one{
 		height: inherit;
@@ -323,4 +322,7 @@ section.top > .separator{
 		padding: 0.2em 0 0.5em;
 		width: calc(100% - 2.0em);
 	}
+	.wrap main{
+		height: calc(100% -2.6rem);
+	}	
 }

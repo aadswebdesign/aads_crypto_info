@@ -292,7 +292,7 @@ section.top > .separator{
 	}	
 }
 
-@media (min-width: 480px) and (max-width: 768px) and (orientation : landscape) {
+@media (min-width: 480px) and (max-width: 769px) and (orientation : landscape) {
 	body{
 		height: 90vh;
 		border: 1px solid red;

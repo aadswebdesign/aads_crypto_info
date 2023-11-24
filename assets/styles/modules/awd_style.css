@@ -303,6 +303,7 @@ section.top > .separator{
 		
 	}
 	.wrap footer{
+		display: relative;
 		height: 2.6rem;
 	}	
 	.wrap footer .block-one{

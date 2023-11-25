@@ -3,6 +3,9 @@ import * as FT from './../../factory/functions.js';
 import {detailsToggleCss} from './../../factory/handlers.js'; 
 export const template_Actions = async (_obj,page_id)=>{
 	const obj = _obj;
+	const main_elem = await FT.elQuery('main');
+	main_elem.classList.add('coin-deco');
+	console.log('main_el',main_elem);
 	const ftrContent = `
 		<div class='block-one relative'>
 			<details class='cookie-details relative'>

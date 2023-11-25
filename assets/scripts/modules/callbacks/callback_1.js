@@ -12,14 +12,8 @@ export const templateOneActions = async (_obj,page_id)=>{
 	const templateOne = await FT.getIdHelper('templateOne')
 	await FT.setContent('small.my-details',`awd<time><i> &#169; </i>${await FT.getYear()}</time>`,false,true);
 	await detailsToggleCss('.cookie-details','block-one','to-up-caret','to-down-caret');
-	//const nav_menu = await FT.elQuery('nav.main-menu');   //nav.main-menu
-	//const nav_menu_width = nav_menu.offsetWidth;
-	//const window_width = window.innerWidth;
-	//const page_tabs = await FT.elQuery('div.page-tabs');
-	//page_tabs.style.width = window_width - nav_menu_width - 10 + 'px';
-	//console.log('nav_menu_width: ',nav_menu_width);
-	//console.log('window_width: ',window_width);
-
-
-
+	const main_elem = await FT.elQuery('main');
+	if(main_elem.classList.contains('coin-deco')){
+		main_elem.classList.remove('coin-deco');
+	}
 };

@@ -1,0 +1,133 @@
+/** styles/modules/template_0.css */
+/**LANDINGPAGE  Template styles */
+.wrap main.coin-deco{
+	top: 0.8rem;
+	height: calc(100% - 1.6rem);
+	left: 0.8rem;
+	width: calc(100% - 1.6rem);
+	background: url("./../../graphics/icons/aci_coin.svg");
+	background-repeat: round;
+	background-size: 6.75rem 18.0rem;
+	filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+	overflow: hidden;
+}
+.wrap main.coin-deco .block .template-null{
+	padding: 6.5rem 2.5rem 1.5rem;
+	width: inherit;
+	height: inherit;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 5.0rem 14.0rem;
+}
+
+.template-null .aci-cover{
+	height: 2.8rem;
+	width: fit-content;
+	padding: 0.5rem;
+	background-color: rgba(60,60,60,0.6);
+	border: 1px solid;
+	border-top-color: rgba(180, 180, 180, 0.5);
+	border-left-color: rgba(180, 180, 180, 0.5);
+	border-right-color: rgba(126, 126, 126, 0.5);
+	border-bottom-color: rgba(180, 126, 126, 0.5);
+	border-radius: 0.5rem;
+}
+.aci-cover .aci-cover-pos{
+	height: inherit;
+	background:no-repeat url("./../../graphics/icons/aci_names.svg");
+}
+#aci_cover_1 .aci-cover-pos{
+	width: 16.8rem;
+	background-size: 16.8em 6.0em;
+	background-position:-35px -12px;
+} 
+#aci_cover_2 .aci-cover-pos{
+	width: 10.0rem;
+	background-size: 10.0em 18.0em;
+	background-position:-35px -62px;
+} 
+#aci_cover_3 .aci-cover-pos{
+	width: 16.8rem;
+	background-size: 16.8em 12.0em;
+	background-position:-35px -112px;
+} 
+#aci_cover_4 .aci-cover-pos{
+	width: 14.6rem;
+	background-size: 14.6em 24.0em;
+	background-position:-35px -162px;
+} 
+#aci_cover_5 .aci-cover-pos{
+	width: 12.0rem;
+	background-size: 12.0em 24.0em;
+	background-position:-35px -212px;
+}
+#my_person{
+	width: 09.0em;
+	height: 11.0em;
+	padding: 0.5em;
+}
+#my_person .aci-my-person{
+	width: 08.0em;
+	height: 10.0em;
+	background:no-repeat url("./../../graphics/images/my_person.jpg");
+	background-size: 9.625em 10.0625em;
+} 
+#aci_cover_6 .aci-cover-pos{
+	width: 13.0rem;
+	background-size: 13.0em 24.0em;
+	background-position:-35px -262px;
+} 
+#aci_cover_7 .aci-cover-pos{
+	width: 16.5rem;
+	background-size: 16.5em 24.0em;
+	background-position:-35px -312px;
+} 
+#aci_cover_8 .aci-cover-pos{
+	width: 6.4rem;
+	background-size: 6.4em 24.0em;
+	background-position:-35px -362px;
+} 
+#aci_cover_9 .aci-cover-pos{
+	width: 8.0rem;
+	background-size: 8.0em 24.0em;
+	background-position:-35px -412px;
+} 
+@media (min-width: 320px) and (max-width: 695px) and (orientation : portrait) {
+	.wrap main.coin-deco{
+		top: 0.2rem;
+		height: calc(100% - 0.4rem);
+		left: 0.6rem;
+		width: calc(100% - 1.2rem);
+		overflow-y: auto;
+		background-size: 4.75rem 16.0rem;
+	}
+	.wrap main.coin-deco .block .template-null{
+		padding: 0.5rem 0.5rem 0.5rem;
+		gap: 2.0rem;
+	}
+}
+@media (min-width: 480px) and (max-width: 780px) and (orientation : landscape) {
+	.wrap main.coin-deco{
+		top: 0.2rem;
+		height: calc(100% - 0.4rem);
+		left: 0.6rem;
+		width: calc(100% - 1.2rem);
+		overflow-y: auto;
+		background-size: 4.75rem 16.0rem;
+	}
+	.wrap main.coin-deco .block .template-null{
+		padding: 0.5rem 0.5rem 0.5rem;
+		gap: 2.0rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

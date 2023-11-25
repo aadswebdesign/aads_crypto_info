@@ -62,15 +62,15 @@
 	background-position:-35px -212px;
 }
 #my_person{
-	width: 09.0em;
-	height: 11.0em;
+	width: 09.2em;
+	height: 11.2em;
 	padding: 0.5em;
 }
 #my_person .aci-my-person{
-	width: 08.0em;
-	height: 10.0em;
+	width: 08.2em;
+	height: 10.2em;
 	background:no-repeat url("./../../graphics/images/my_person.jpg");
-	background-size: 9.625em 10.0625em;
+	background-size: 8.2em 10.2em;
 } 
 #aci_cover_6 .aci-cover-pos{
 	width: 13.0rem;

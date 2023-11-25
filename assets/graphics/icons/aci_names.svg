@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg xml:space="preserve" height="100%" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style>
+		text.coin-text{
+			font: bold 1.8rem "Comic Sans Ms";
+			stroke: #808080;
+			fill: #c0c0c0;
+		}
+	</style>
+	
+	<g id='Informational' style='transform: translate(0);'>
+		<text class='coin-text' x='40' y='35'>PureInformational!</text>
+	</g>
+	<g id='Blockchain' style='transform: translate(0, 50px);'>
+		<text class='coin-text' x='40' y='35'>Blockchain!</text>
+	</g>
+	<g id='NoFinancialAdvice' style='transform: translate(0, 100px);'>
+		<text class='coin-text' x='40' y='35'>NoFinancialAdvice!</text>
+	</g>
+	<g id='Cryptocurrency' style='transform: translate(0, 150px);'>
+		<text class='coin-text' x='40' y='35'>Cryptocurrency!</text>
+	</g>
+	<g id='Marketvalue' style='transform: translate(0, 200px);'>
+		<text class='coin-text' x='40' y='35'>Marketvalue!</text>
+	</g>
+	<g id='Cryptomarket' style='transform: translate(0, 250px);'>
+		<text class='coin-text' x='40' y='35'>Cryptomarket!</text>
+	</g>
+	<g id='Longterminvesting' style='transform: translate(0, 300px);'>
+		<text class='coin-text' x='40' y='35'>Longterminvesting!</text>
+	</g>
+	<g id='Rarity' style='transform: translate(0, 350px);'>
+		<text class='coin-text' x='40' y='35'>Rarity!</text>
+	</g>
+	<g id='Demand' style='transform: translate(0, 400px);'>
+		<text class='coin-text' x='40' y='35'>Demand!</text>
+	</g>
+
+
+
+
+</svg>

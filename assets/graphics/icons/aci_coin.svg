@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<svg viewBox="0 0 324 324" xml:space="preserve" height="100%" width="100%" version="1.1" id="Coin_bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+<svg viewBox="30 0 272 162" xml:space="preserve" height="100%" width="80%" version="1.1" id="Coin_bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
 	<defs>
 		<filter id="coin_shadow">
 		  <feDropShadow dx="0.2" dy="0.4" stdDeviation="0.2" flood-color="pink" flood-opacity="0.5" />
 		</filter>
 	</defs>
 	<g>
-		<g style='transform: translate(0,-80px);'>
-			<circle id='coin_circle_1' cx='76' cy='76' r='72' style='fill:#ffcc00;stroke:#d4aa00;stroke-width:4px;'></circle>
-			<circle id='coin_circle_2' cx='76' cy='76' r='54' style='fill:none;stroke:#d4aa00;stroke-width:4px'></circle>
-			<path id='coin_path_1' d='M 37,37 113,113' style='fill:none;fill-rule:evenodd;stroke:#d4aa00;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1'></path>
-			<path id='coin_path_2' d='M 113,37 37,113' style='fill:none;fill-rule:evenodd;stroke:#d4aa00;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1'></path>
+		<g style='transform: translate(10px,-70px);'>
+			<circle id='coin_circle_1' cx='106' cy='76' r='72' style='fill:#ffcc00;stroke:#d4aa00;stroke-width:4px;'></circle>
+			<circle id='coin_circle_2' cx='106' cy='76' r='54' style='fill:none;stroke:#d4aa00;stroke-width:4px'></circle>
+			<path id='coin_path_1' d='M 67,37 143,113' style='fill:none;fill-rule:evenodd;stroke:#d4aa00;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1'></path>
+			<path id='coin_path_2' d='M 143,37 67,113' style='fill:none;fill-rule:evenodd;stroke:#d4aa00;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1'></path>
 		</g>
-		<g style='transform: translate(176px,296px);'>
-			<circle id='coin_circle_3' cx='76' cy='76' r='72' style='fill:#ffcc00;stroke:#d4aa00;stroke-width:4px'></circle>
-			<circle id='coin_circle_4' cx='76' cy='76' r='54' style='fill:none;stroke:#d4aa00;stroke-width:4px'></circle>
-			<path id='coin_path_3' d='M 37,37 113,113' style='fill:none;fill-rule:evenodd;stroke:#d4aa00;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1'></path>
-			<path id='coin_path_4' d='M 113,37 37,113' style='fill:none;fill-rule:evenodd;stroke:#d4aa00;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1'></path>
+		<g style='transform: translate(20px,120px);'>
+			<circle id='coin_circle_3' cx='200' cy='76' r='72' style='fill:#ffcc00;stroke:#d4aa00;stroke-width:4px'></circle>
+			<circle id='coin_circle_4' cx='200' cy='76' r='54' style='fill:none;stroke:#d4aa00;stroke-width:4px'></circle>
+			<path id='coin_path_3' d='M 161,37 237,113' style='fill:none;fill-rule:evenodd;stroke:#d4aa00;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1'></path>
+			<path id='coin_path_4' d='M 237,37 161,113' style='fill:none;fill-rule:evenodd;stroke:#d4aa00;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1'></path>
 		</g>
 	</g>
 </svg>

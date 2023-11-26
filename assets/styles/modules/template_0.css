@@ -39,27 +39,27 @@
 #aci_cover_1 .aci-cover-pos{
 	width: 16.8rem;
 	background-size: 16.8em 6.0em;
-	background-position:-35px -12px;
+	background-position:-35px -5px;
 } 
 #aci_cover_2 .aci-cover-pos{
 	width: 10.0rem;
 	background-size: 10.0em 18.0em;
-	background-position:-35px -62px;
+	background-position:-35px -52px;
 } 
 #aci_cover_3 .aci-cover-pos{
 	width: 16.8rem;
 	background-size: 16.8em 12.0em;
-	background-position:-35px -112px;
+	background-position:-35px -90px;
 } 
 #aci_cover_4 .aci-cover-pos{
 	width: 14.6rem;
 	background-size: 14.6em 24.0em;
-	background-position:-35px -162px;
+	background-position:-35px -132px;
 } 
 #aci_cover_5 .aci-cover-pos{
 	width: 12.0rem;
 	background-size: 12.0em 24.0em;
-	background-position:-35px -212px;
+	background-position:-35px -172px;
 }
 #my_person{
 	width: 09.2em;
@@ -75,23 +75,36 @@
 #aci_cover_6 .aci-cover-pos{
 	width: 13.0rem;
 	background-size: 13.0em 24.0em;
-	background-position:-35px -262px;
+	background-position:-35px -216px;
 } 
 #aci_cover_7 .aci-cover-pos{
-	width: 16.5rem;
-	background-size: 16.5em 24.0em;
-	background-position:-35px -312px;
-} 
-#aci_cover_8 .aci-cover-pos{
-	width: 6.4rem;
-	background-size: 6.4em 24.0em;
-	background-position:-35px -362px;
-} 
-#aci_cover_9 .aci-cover-pos{
 	width: 8.0rem;
 	background-size: 8.0em 24.0em;
-	background-position:-35px -412px;
+	background-position:-35px -255px;
 } 
+#aci_cover_8 .aci-cover-pos{
+	width: 6.8rem;
+	background-size: 6.8em 24.0em;
+	background-position:-35px -298px;
+} 
+#aci_cover_9 .aci-cover-pos{
+	width: 16.5rem;
+	background-size: 16.5em 24.0em;
+	background-position:-35px -342px;
+} 
+#aci_cover_10 .aci-cover-pos{
+	width: 11.5rem;
+	background-size: 11.5em 24.0em;
+	background-position:-35px -380px;
+} 
+#aci_cover_11 .aci-cover-pos{
+	width: 13.5rem;
+	background-size: 13.5em 24.0em;
+	background-position:-35px -422px;
+} 
+
+
+
 @media (min-width: 320px) and (max-width: 695px) and (orientation : portrait) {
 	.wrap main.coin-deco{
 		top: 0.2rem;

@@ -23,13 +23,19 @@ export async function template_null(){
 		<div id='aci_cover_6' class='aci-cover relative'>
 			<div class='aci-cover-pos relative'></div>
 		</div>		
+		<div id='aci_cover_7' class='aci-cover relative'>
+			<div class='aci-cover-pos relative'></div>
+		</div>		
 		<div id='aci_cover_8' class='aci-cover relative'>
 			<div class='aci-cover-pos relative'></div>
 		</div>		
 		<div id='aci_cover_9' class='aci-cover relative'>
 			<div class='aci-cover-pos relative'></div>
 		</div>		
-		<div id='aci_cover_7' class='aci-cover relative'>
+		<div id='aci_cover_10' class='aci-cover relative'>
+			<div class='aci-cover-pos relative'></div>
+		</div>		
+		<div id='aci_cover_11' class='aci-cover relative'>
 			<div class='aci-cover-pos relative'></div>
 		</div>		
 	</div>

@@ -33,6 +33,67 @@ export const addClass = async (_elem,_class,_parent = null)=>{
 	}
 	return await el;
 };
+export const detailsContentBoxHelper = async (details_el)=>{
+	/** todo add more options and x, y arguments
+	 * determined classes
+	 * opened from details/summary container
+	 * -> open-up, open-right, open-down, open-left, open-custom
+	 * moved from details/summary container
+	 * -> move-up, move-right, move-down, move-left, move-custom
+	 * content container
+	 * -> details-content
+	 *
+	 *
+	 */
+	const opens = {
+		up: 'open-up',
+		right: 'open-right',
+		down: 'open-down',
+		left: 'open-left',
+		up_right: 'open-up-right'
+	};
+	if(details_el){
+		const details_content = await elQuery('div.details-content',false,details_el);
+		const details_summary = await elQuery('summary',false,details_el);
+		const summary = {
+			height: details_summary.offsetHeight,
+			width: details_summary.offsetWidth
+		};
+		details_el.addEventListener('toggle',(event)=>{
+			const content = {
+				height: details_content.offsetHeight,
+				width: details_content.offsetWidth
+			};
+			const right_size = summary.width + 5 + 'px';
+			const up_size = content.height + 5 + 'px';
+
+			console.log('details_content:',details_content);
+			console.log('details_summary:',details_summary);
+			console.table({'content': content, 'summary': summary});
+			switch (true){
+				case details_el.classList.contains(opens.up):
+					details_content.style.top = '-' + up_size;
+					console.log('open-up');
+				break;
+				case details_el.classList.contains(opens.right):
+					details_content.style.left = right_size;
+				break;
+				case details_el.classList.contains(opens.up_right):
+					details_content.style.top = '-' + up_size;
+					details_content.style.left = right_size;
+					console.log('open-up-right');
+				break;
+				case details_el.classList.contains(opens.down):
+				console.log('todo open-down');
+				break;
+				case details_el.classList.contains(opens.left):
+				console.log('todo open-left');
+			}
+		});
+	}
+};
+
+
 export const detailsContentSizesToVar = async (detail_el,content_el,content_width=false,content_height=false,log=false) =>{
 	if(detail_el){
 		detail_el.addEventListener('toggle',(event)=>{

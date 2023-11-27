@@ -8,7 +8,7 @@ export const template_Actions = async (_obj,page_id)=>{
 	console.log('main_el',main_elem);
 	const ftrContent = `
 		<div class='block-one relative'>
-			<details class='cookie-details relative'>
+			<details class='cookie-details open-up relative'>
 				<summary class='to-up-caret relative' title='Open'>No Cookies!</summary>
 				<div class='details-content en absolute display-flex'>
 					<i class='cookie-bg relative' title='Image is from www.svgrepo.com'></i><p class='relative'>Aside of functional cookies, there are no other cookies used!</p>
@@ -22,4 +22,7 @@ export const template_Actions = async (_obj,page_id)=>{
 	const ftrBlock = await FT.elQuery('.footer-block');
 	await FT.setContent(ftrBlock,ftrContent);
 	await detailsToggleCss('.cookie-details','block-one','to-up-caret','to-down-caret');
+	const block_one = await FT.elQuery('.block-one');  
+	const cookie_details = await FT.elQuery('.cookie-details',false, block_one); 
+	await FT.detailsContentBoxHelper(cookie_details);
 };

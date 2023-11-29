@@ -2,5 +2,9 @@
 @import "./modules/awd_resets.css";
 @import "./modules/awd_base.css";
 @import "./modules/awd_style.css";
+@import "./modules/awd_header_styles.css";
+@import "./modules/awd_main_styles.css";
+@import "./modules/awd_footer_styles.css";
+@import "./modules/awd_templates_styles.css";
 @import "./modules/template_0.css";
 

@@ -1,10 +1,5 @@
 /** factory/awd_base.css */
 
-/** VARS this is used in js function detailsContentSizesToVar , don't change this!*/
-*{
-	--content-height: 0;
-	--content-width: 0;
-}
 .absolute{
 	position:absolute;
 }
@@ -79,13 +74,15 @@
 	vertical-align: baseline;
 	font-size: 1.2em;
 }
+.to-up-caret::before{
+	content:"\25B2";	
+	position: relative;
+	right: 0.2rem;
+	font-size: 1.0em;
+	color: #e2e2e2;
+}
 .to-right-caret::before{
 	content:"\25BA";
-	position: relative;
-	font-size: 1.2em;
-}
-.to-left-caret::before{
-	content:"\25C0";
 	position: relative;
 	font-size: 1.2em;
 }
@@ -96,13 +93,26 @@
 	font-size: 1.0em;
 	color: #e2e2e2;
 }
-.to-up-caret::before{
-	content:"\25B2";	
+.to-left-caret::before{
+	content:"\25C0";
 	position: relative;
-	right: 0.2rem;
-	font-size: 1.0em;
-	color: #e2e2e2;
+	font-size: 1.2em;
 }
-
+/* DETAILS/SUMMARY BASE STYLES */
+details summary{
+	width: fit-content;
+	padding: 0.2rem;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+details .details-content{
+	padding: 0.3em;
+	height: fit-content;
+	width: fit-content;
+	
+}
+details .details-content p{
+	
+}
 
 

@@ -31,11 +31,7 @@ body div.agent-string{
 .wrap main p::first-letter{
 	font-size: 1.4em;
 }
-@media (max-width: 343px) and (orientation : portrait) {
-	section.top div.top-block div.page-tabs{
-		transform: translate(0,-5px);
-	}
-}
+
 @media (min-width: 320px) and (max-width: 647px) and (orientation : portrait) {
 	body{
 		height:93vh;
@@ -71,6 +67,10 @@ body div.agent-string{
 		max-height: calc(93vh - 10.0rem);
 		overflow-y: auto;
 	}
+	section.top div.top-block div.page-tabs{
+		transform: translate(0,-5px);
+	}
+
 
 }
 @media (min-width: 480px) and (max-width: 780px) and (orientation : landscape) {

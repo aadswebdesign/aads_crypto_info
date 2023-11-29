@@ -31,6 +31,7 @@ details.cookie-details[open] summary{
 }
 
 details.cookie-details .details-content{
+	gap: 0.5rem;
 	background: rgb(141,192,250);
 	color: #ebefdd;
 	font-size: 1.3rem;	
@@ -45,8 +46,7 @@ details.cookie-details .details-content .cookie-bg{
 	bottom: auto;
 	background: no-repeat left url("./../../graphics/icons/cookie.svg");
 	background-size: 2.4em 1.8em;
-	background-position: 0;	
-	width: 2.8em;
+	width: 2.4em;
 	height: 1.8em;
 }
 .wrap footer .block-two{

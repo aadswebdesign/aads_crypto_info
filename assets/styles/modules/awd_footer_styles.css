@@ -1,0 +1,62 @@
+/** styles/modules/awd_footer_styles.css */
+/* FOOTER */
+.wrap footer{
+	height: 2.0rem;
+	margin: 0.5rem 0;
+	gap: 0.5rem;
+	flex-flow: row nowrap;
+}
+.wrap footer .block-one{
+	flex-grow: 1;
+}
+.wrap footer .block-one details.cookie-details{
+	bottom: 0.5rem;
+	left: 1.2rem;
+}
+details.cookie-details summary{
+	background: rgb(141,192,250);
+	color: #ebefdd;
+	font-size: 1.4rem;
+	line-height: 1.2em;
+	cursor: pointer;
+	border: 1px solid;
+	border-top-color: #cbbca3;
+	border-right-color: #947c54;
+	border-bottom-color: #947c54 #cbbca3;
+	border-left-color: #cbbca3;
+	border-radius: 0.4rem;
+}
+details.cookie-details[open] summary{
+	color: rgb(77,87,40);
+}
+
+details.cookie-details .details-content{
+	background: rgb(141,192,250);
+	color: #ebefdd;
+	font-size: 1.3rem;	
+	border-radius: 0.5em;
+	border: 1px solid;
+	border-top-color: #e2e4e7;
+	border-right-color: #1e2024;
+	border-bottom-color: #1e2024;
+	border-left-color: #e2e4e7;
+}
+details.cookie-details .details-content .cookie-bg{
+	bottom: auto;
+	background: no-repeat left url("./../../graphics/icons/cookie.svg");
+	background-size: 2.4em 1.8em;
+	background-position: 0;	
+	width: 2.8em;
+	height: 1.8em;
+}
+.wrap footer .block-two{
+	width: fit-content;
+	padding: 0 0.8rem;
+}
+
+.wrap footer .block-two small{
+	width: fit-content;
+	flex-wrap: nowrap;
+	line-height: 1.2em;
+	color: #adadad;
+}

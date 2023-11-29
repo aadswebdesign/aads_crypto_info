@@ -1,0 +1,30 @@
+/** styles/modules/awd_main_styles.css */
+/* MAIN */
+.wrap main{
+	font-size: 1.4em;
+	flex-grow: 1;
+	overflow-y: auto;
+	color: rgb(77,87,40);
+}
+.wrap main p.quoted-double,
+.wrap main p.quoted-double::first-letter{
+	font-size: 1.0em;
+}
+.wrap main header h2, .wrap main h3{
+	color: rgb(77,87,40);
+	font-weight: 600;
+}
+.wrap main header h2{
+	font-size: 2.2rem;
+}
+
+
+
+
+
+/* PAGES */
+div.block.page{
+	height: 100%;
+	padding-bottom: 0;
+	width: 100%;
+}

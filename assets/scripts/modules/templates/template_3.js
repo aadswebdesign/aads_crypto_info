@@ -61,6 +61,7 @@ export async function templateThree(){
 				<h3>มีส่วนร่วมลองทำดู?</h3>
 				<p class='padding-one quoted-double relative' style='color:#7e7e7e'>ก่อนอื่น การลงทะเบียนนี้ไม่มีค่าใช้จ่ายใด ๆ ทั้งสิ้น และคุณสามารถยกเลิกการสมัครรับข้อมูลได้ตลอดเวลาฟรีเช่นกัน!</p>
 				<p>อยากทราบข้อมูลเพิ่มเติมและทดลองใช้ คลิก <a style='font-size: 1.8rem;' target='blanc' href='https://ipdm.io/?sponsor=13012' class='a-underline'>เพื่อลงทะเบียน</a></p>
+				<p class='padding-one quoted-double relative'>Note: ในช่วงต้นเดือนมกราคม พ.ศ. 2567, ที่ <span class='quoted-single relative'>การตลาดหลายระดับ</span>&nbsp;&nbsp; แผนจะถูกแทนที่ด้วยโอกาสอื่น ๆ. ดู <span class='quoted-single relative'>MLM</span>&nbsp;&nbsp; แท็บเพื่อดูเพิ่มเติม!</p>
 				<h3>ประวัติย่อ,</h3>
 				<p class='ltr-arrow relative'>นี่ไม่ใช่คำแนะนำทางการเงิน.</p>
 				<p class='ltr-arrow relative'>การลงทุนในสิ่งนี้ขึ้นอยู่กับริซิโกของคุณเอง.</p>

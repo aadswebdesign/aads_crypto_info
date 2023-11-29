@@ -1,6 +1,6 @@
 /** callbacks/callback_0.js */
 import * as FT from './../../factory/functions.js';
-import {detailsToggleCss} from './../../factory/handlers.js'; 
+import * as HL from './../../factory/handlers.js';
 export const template_Actions = async (_obj,page_id)=>{
 	const obj = _obj;
 	const main_elem = await FT.elQuery('main');
@@ -21,8 +21,5 @@ export const template_Actions = async (_obj,page_id)=>{
 	`;
 	const ftrBlock = await FT.elQuery('.footer-block');
 	await FT.setContent(ftrBlock,ftrContent);
-	await detailsToggleCss('.cookie-details','block-one','to-up-caret','to-down-caret');
-	const block_one = await FT.elQuery('.block-one');  
-	const cookie_details = await FT.elQuery('.cookie-details',false, block_one); 
-	await FT.detailsContentBoxHelper(cookie_details);
+	await HL.detailsEventsHandler('.cookie-details','.block-one',0,5);
 };

@@ -60,6 +60,7 @@ export async function templateOne(){
 				<h3>Participating, trying it out?</h3>
 				<p class='padding-one quoted-double relative'>First of all, registering for this is completely free and you can unsubscribe at any time for free too!</p>
 				<p>If you want to know more and try it out, click <a target='blanc' href='https://ipdm.io/?sponsor=13012' class='a-underline'>TO ENROL</a></p>
+				<p class='padding-one quoted-double relative'>Note: At the first of January 2024, the <span class='quoted-single relative'>MultiLevelMarketing</span>&nbsp;&nbsp;plan will be replaced by other opportunities. See <span class='quoted-single relative'>MLM</span>&nbsp;&nbsp; tab for more!</p>
 				<h3>Resume,</h3>
 				<p class='ltr-arrow relative'>This is not a financial advice.</p>
 				<p class='ltr-arrow relative'>Investing in this is at your own risico.</p>

@@ -1,3 +1,4 @@
+
 /** templates/template_2.js */
 import * as FT from './../../factory/functions.js';
 import * as HL from './../../factory/handlers.js';
@@ -60,6 +61,7 @@ export async function templateTwo(){
 				<h3>Deelnemen, uitproberen?</h3>
 				<p class='padding-one quoted-double relative'>Ten eerste, het inschrijven hierop is geheel gratis en u kunt u op elk moment ook weer gratis uitschrijven!</p>
 				<p>Als u meer wilt weten en het wilt uitproberen, klik op <a target='blanc' href='https://ipdm.io/?sponsor=13012' class='a-underline'>INSCHRIJVEN</a></p>
+				<p class='padding-one quoted-double relative'>Note: Op 1 januari 2024, zal het <span class='quoted-single relative'>MultiLevelMarketing</span>&nbsp;&nbsp;plan vervangen worden door andere mogelijkheden. Zie <span class='quoted-single relative'>MLM</span>&nbsp;&nbsp; tabblad voor meer!</p>
 				<h3>Samenvatting,</h3>
 				<p class='ltr-arrow relative'>Dit is geen financieel advies.</p>
 				<p class='ltr-arrow relative'>Investeren hierin is op eigen risico.</p>

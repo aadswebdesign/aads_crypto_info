@@ -8,9 +8,9 @@ export async function templateOne(){
 		<div class='relative content-block display-flex'>
 			<article class='disclaimer relative'>
 				<header class='relative'><h2>Disclaimer</h2></header>
-				<h3>Personal view.</h3>
-				<p class='ltr-arrow relative'>This is not a financial advice but just an informative and personal view of this opportunity.</p>
-				<p class='ltr-arrow relative'>Also, this website is not at any way connected to the blockchaincompany <strong>CryptoPerformance Group</strong> and its underlaying departments.</p>
+				<h3>At First.</h3>
+				<p class='ltr-arrow relative'>This website is not at any way connected to the blockchaincompany <strong>CryptoPerformance Group (called from here <span class='quoted-single relative'>CPGroup</span>&nbsp;&nbsp;)</strong> and its underlaying departments.</p>
+				<p class='ltr-arrow relative'>This is not a financial advice but just an informative expression of my personal view on this blockchain company.</p>
 				<h3>Risks</h3>
 				<p class='ltr-arrow relative'>As with any business there are risks, be aware of that!</p>
 				<p class='ltr-arrow relative'>Therefor I do not give any guarantee that this business will succeed, there is always a risk that you loose your money!</p>
@@ -21,7 +21,7 @@ export async function templateOne(){
 				<p class='ltr-arrow relative'>At the minimum make sure that you have some funds left, for in case you have unexpected costs that occur (for example the washingmachine brakes down?).</p>
 				<p class='ltr-arrow relative'>Make sure that the activities of this blockchaincompany are legal in the country you live inn!</p>
 				<h3>Last,</h3>
-				<p>The blockchaincompany CryptoPerformance Group has his own <span class='quoted-single relative'>WhitePaper</span>&nbsp;&nbsp; and you will find it here 
+				<p>The blockchaincompany CPGroup has his own <span class='quoted-single relative'>WhitePaper</span>&nbsp;&nbsp; and you will find it here 
 					<a target='blanc' href='https://cpcoin.io/wp-content/uploads/2023/09/CPCoin_WhitePaper_V.05.2023_1-small.pdf' class='a-underline'>White Paper</a>
 				.</p>
 				<p>There you will find their full detailed vision on this concept.</p>
@@ -31,10 +31,10 @@ export async function templateOne(){
 			<article class='relative'>
 				<h3>An unigue opportunity,</h3>
 				<p>To generate a passive income through a long-term investment.</p>
-				<p>This by investing in <strong>CPCoins</strong> from blockchaincompany CryptoPerformance Group.</p>
+				<p>This by investing in <strong>CPCoins</strong> from blockchaincompany CPGroup.</p>
 				<p class='padding-one quoted-double relative'><strong>Notice:</strong> It is about long term investments, if you are out for short term then this is not your place!</p>
 				<h3>What is the CPCoin?</h3>
-				<p>It is a scarce crypto coin issued by blockchaincompany CryptoPerformance Group.</p>
+				<p>It is a scarce crypto coin issued by blockchaincompany CPGroup.</p>
 				<p>There are a total of 250 million coins available and that is final.</p>
 				<h3>Based on Projects,</h3>
 				<p>It are projects that will going to run on it and what will determine the value of the CPCoin.</p>
@@ -82,7 +82,7 @@ export async function templateOne(){
 				<p>As I am from the Netherlands, I find them very helpful and I have learned a lot from them since I joined and I still do.</p>
 				<p>If you are enrolled and interested to know of how that is going? Just let me know, then I wil send you a link for a  <span class='quoted-single relative'>zoom</span>&nbsp;&nbsp; webinar.</p>
 				<p class='padding-one quoted-double relative'>The spoken language here is Dutch but I might ask for an introduction in English?</p>
-				<p>It might be an inspiration for you to create a usergroup in the country you reside <span class='quoted-single relative'><strong>T</strong>ogether<strong>E</strong>ach<strong>A</strong>chives<strong>M</strong>ore</span>&nbsp;&nbsp;? </p>
+				<p>It might be an inspiration for you to create your own usergroup in the country you reside <span class='quoted-single relative'><strong>T</strong>ogether<strong>E</strong>ach<strong>A</strong>chives<strong>M</strong>ore</span>&nbsp;&nbsp;? </p>
 			</article>
 			<hr/>
 			<header class='relative'><h2>Thank you for reading.</h2></header>

@@ -9,9 +9,9 @@ export async function templateThree(){
 			<div class='relative content-block display-flex'>
 			<article class='disclaimer relative'>
 				<header class='relative'><h2>ข้อสงวนสิทธิ์</h2></header>
-				<h3>มุมมองส่วนตัว.</h3>
-				<p class='ltr-arrow relative'>นี่ไม่ใช่คำแนะนำทางการเงิน แต่เป็นเพียงมุมมองที่ให้ข้อมูลและเป็นส่วนตัวเกี่ยวกับโอกาสนี้.</p>
-				<p class='ltr-arrow relative'>นอกจากนี้ เว็บไซต์นี้ไม่ได้เชื่อมต่อกับ  blockchaincompany <strong>CryptoPerformance Group</strong> และแผนกที่อยู่เบื้องหลังแต่อย่างใด.</p>
+				<h3>ตอนแรก.</h3>
+				<p class='ltr-arrow relative'>นอกจากนี้ เว็บไซต์นี้ไม่ได้เชื่อมต่อกับ  บริษัทบล็อคเชน <strong>CryptoPerformance Group (โทรมาจากที่นี่ <span class='quoted-single relative'>CPGroup</span>&nbsp;&nbsp;)</strong> และแผนกที่อยู่เบื้องหลังแต่อย่างใด.</p>
+				<p class='ltr-arrow relative'>นี่ไม่ใช่คำแนะนำทางการเงิน แต่เป็นเพียงการแสดงข้อมูลในมุมมองส่วนตัวของฉันเกี่ยวกับบริษัทบล็อกเชนนี้.</p>
 				<h3>ความเสี่ยง.</h3>
 				<p class='ltr-arrow relative'>เช่นเดียวกับธุรกิจอื่นๆ ก็มีความเสี่ยง โปรดระวัง!</p>
 				<p class='ltr-arrow relative'>ดังนั้นฉันจึงไม่รับประกันว่าธุรกิจนี้จะประสบความสำเร็จ มีความเสี่ยงที่คุณจะต้องเสียเงินอยู่เสมอ!</p>
@@ -22,7 +22,7 @@ export async function templateThree(){
 				<p class='ltr-arrow relative'>อย่างน้อยที่สุด ตรวจสอบให้แน่ใจว่าคุณมีเงินเหลืออยู่บ้าง ในกรณีที่คุณมีค่าใช้จ่ายที่ไม่คาดคิดเกิดขึ้น (เช่น เครื่องซักผ้าเสีย?).</p>
 				<p class='ltr-arrow relative'>ตรวจสอบให้แน่ใจว่ากิจกรรมของบริษัทบล็อกเชนนี้ถูกกฎหมายในประเทศไทย!</p>
 				<h3>ล่าสุด,</h3>
-				<p>บริษัทบล็อคเชน CryptoPerformance Group มีของเขาเอง <span class='quoted-single relative'>เอกสารไวท์เปเปอร์'</span>&nbsp;&nbsp; ของตัวเอง และคุณจะพบได้ที่นี่  
+				<p>บริษัทบล็อคเชน CPGroup มีของเขาเอง <span class='quoted-single relative'>เอกสารไวท์เปเปอร์'</span>&nbsp;&nbsp; ของตัวเอง และคุณจะพบได้ที่นี่  
 					<a target='blanc' href='https://cpcoin.io/wp-content/uploads/2023/09/CPCoin_WhitePaper_V.05.2023_1-small.pdf' class='a-underline'>กระดาษสีขาว</a>
 				.</p>
 				<p>คุณจะพบวิสัยทัศน์โดยละเอียดเกี่ยวกับเรื่องนี้ที่นั่น (นี่เป็นภาษาอังกฤษ แต่ด้วย Google Translate คุณจะไปได้ไกล!).</p>
@@ -32,10 +32,10 @@ export async function templateThree(){
 			<article class='relative'>
 				<h3>โอกาสพิเศษ,</h3>
 				<p>เพื่อสร้างรายได้แบบพาสซีฟผ่านการลงทุนระยะยาว.</p>
-				<p>โดยการลงทุนใน  <strong>CPCoins</strong> จาก  blockchaincompany CryptoPerformance Group!</p>
+				<p>โดยการลงทุนใน  <strong>CPCoins</strong> จาก  blockchaincompany CPGroup!</p>
 				<p class='padding-one quoted-double relative'><strong>สังเกต:</strong> เป็นเรื่องเกี่ยวกับการลงทุนระยะยาว หากคุณออกไประยะสั้น ที่นี่ไม่ใช่ที่ของคุณ!</p>
 				<h3>CPCoin คืออะไร?</h3>
-				<p>มันเป็นเหรียญ crypto ที่หายากซึ่งออกโดย blockchaincompany CryptoPerformance Group.</p>
+				<p>มันเป็นเหรียญ crypto ที่หายากซึ่งออกโดย blockchaincompany CPGroup.</p>
 				<p>มีเหรียญให้เลือกทั้งหมด 250 ล้านเหรียญและถือเป็นที่สิ้นสุด.</p>
 				<h3>ขึ้นอยู่กับโครงการ,</h3>
 				<p>เป็นโครงการที่จะดำเนินการและสิ่งที่จะกำหนดมูลค่าของ CPCoin.</p>

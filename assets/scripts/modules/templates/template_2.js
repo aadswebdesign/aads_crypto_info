@@ -10,9 +10,9 @@ export async function templateTwo(){
 			<div class='relative content-block display-flex'>
 			<article class='disclaimer relative'>
 				<header class='relative'><h2>Vrijwaring</h2></header>
-				<h3>Persoonlijke kijk.</h3>
-				<p class='ltr-arrow relative'>Dit is geen financieel advies, maar slechts een informatieve en persoonlijke kijk op deze mogelijkheid.</p>
-				<p class='ltr-arrow relative'>Ook is deze website op geen enkele wijze verbonden met blockchainbedrijf <strong>CryptoPerformance Group</strong> en haar onderliggende afdelingen.</p>
+				<h3>Als eerste.</h3>
+				<p class='ltr-arrow relative'>Deze website is op geen enkele wijze verbonden met blockchainbedrijf <strong>CryptoPerformance Group (vanaf hier genoemd <span class='quoted-single relative'>CPGroup</span>&nbsp;&nbsp;)</strong> en haar onderliggende afdelingen.</p>
+				<p class='ltr-arrow relative'>Dit is geen financieel advies, maar slechts een Informatieve weergave van mijn persoonlijke visie op dit blockchainbedrijf.</p>
 				<h3>Risico's.</h3>
 				<p class='ltr-arrow relative'>Zoals bij elk bedrijf zijn er risico's, houd daar rekening mee!</p>
 				<p class='ltr-arrow relative'>Daarom geef ik geen enkele garantie dat dit bedrijf zal slagen, er is altijd een risico dat u uw geld verliest!</p>
@@ -22,7 +22,7 @@ export async function templateTwo(){
 				<p class='ltr-arrow relative'>Stop er nooit al je spaargeld in, stel jezelf een maximum (laten we zeggen 20% of 30%?).</p>
 				<p class='ltr-arrow relative'>Zorg er in ieder geval voor dat u wat geld over heeft, voor het geval er onverwachte kosten optreden (bijv, de wasmachine gaat kapot?).</p>
 				<h3>Als laatste,</h3>
-				<p>Het blockchainbedrijf CryptoPerformance Group heeft zijn eigen <span class='quoted-single relative'>WhitePaper</span>&nbsp;&nbsp; en deze vindt u hier 
+				<p>Het blockchainbedrijf CPGroup heeft zijn eigen <span class='quoted-single relative'>WhitePaper</span>&nbsp;&nbsp; en deze vindt u hier 
 					<a target='blanc' href='https://cpcoin.io/wp-content/uploads/2023/09/CPCoin_WhitePaper_V.05.2023_1-small.pdf' class='a-underline'>White Paper</a>
 				.</p>
 				<p>Daar vindt u hun volledige gedetailleerde visie hierop (Dit is in het Engels, maar met Google Translate kom je al een heel eind!).</p>
@@ -32,10 +32,10 @@ export async function templateTwo(){
 			<article class='relative'>
 				<h3>Een unieke kans,</h3>
 				<p>Om middels een langertermijn investering, een passief inkomen te genereren.</p>
-				<p>Dit door te investeren in <strong>CPCoins</strong> van blockchainbedrijf CryptoPerformance Group.</p>
+				<p>Dit door te investeren in <strong>CPCoins</strong> van blockchainbedrijf CPGroup.</p>
 				<p class='padding-one quoted-double relative'><strong>Opgemerkt:</strong> Het gaat hier om langetermijninvesteringen, als je op korte termijn uit bent, dan is dit niet jouw plek!</p>
 				<h3>Wat is de CPCoin?</h3>
-				<p>Het is een schaarse cryptomunt uitgegeven door blockchainbedrijf CryptoPerformance Group.</p>
+				<p>Het is een schaarse cryptomunt uitgegeven door blockchainbedrijf CPGroup.</p>
 				<p>Er zijn in totaal 250 miljoen munten beschikbaar en dat is definitief.</p>
 				<h3>Gebaseerd op Projecten,</h3>
 				<p>Het zijn projecten die erop gaan draaien en die de waarde van de CPCoin zullen gaan bepalen.</p>
@@ -73,15 +73,15 @@ export async function templateTwo(){
 				<h3>Informatie en adviezen</h3>
 				<p class='ltr-arrow relative'>Als u zich abonneert, is er veel informatie die op u afkomt, geef jezelf er de tijd voor om het door te nemen.</p>
 				<p class='ltr-arrow relative'>Voordat u een investering doet, moet u ervoor zorgen dat u begrijpt wat u doet en welke risico's daaraan verbonden zijn!</p>
-				<p class='ltr-arrow relative'>Als u vragen heeft of hulp nodig heeft, wil ik u graag helpen en kunt u mij bereiken via uw beheerderspaneel dat Crypto-performance Group u ter beschikking stelt wanneer u zich aanmeldt.</p>
-				<p class='padding-one quoted-double relative'>Houd wel dit in gedachten: Ik zal proberen u zo goed mogelijk te helpen, echter is het met de kennis die ik heb en ik kan fouten maken of er kunnen zich andere situaties voordoen waardoor uw investering niet goed gaat.
+				<p class='ltr-arrow relative'>Als u vragen heeft of hulp nodig heeft, wil ik u graag helpen en kunt u mij bereiken via uw beheerderspaneel dat CPGroup u ter beschikking stelt wanneer u zich aanmeldt.</p>
+				<p class='padding-one quoted-double relative'>Houd wel dit in gedachten: Ik zal proberen u zo goed mogelijk te helpen, echter is het met de kennis die ik heb en ik kan ook fouten maken of er kunnen zich andere situaties voordoen waardoor uw investering niet goed gaat.
 				Daarom aanvaard ik hiervoor geen enkele verantwoordelijkheid of aansprakelijkheid. Alle stappen die u zet zijn voor uw eigen verantwoordelijkheid.
 				</p>
 				<p class='ltr-arrow relative'>Naast mijn ondersteuning heeft dit blockchainbedrijf hun eigen accurate en behulpzame supportdesk en je kunt ze bereiken via je admin panel.</p>
 				<h3>Gebruikersgroep.</h3>
 				<p>Nederland/België heeft zijn eigen unieke gebruikersgroep <strong>Crypto-performance NL</strong>.</p>
 				<p>Deze houd <span class='quoted-single relative'>zoom</span>&nbsp;&nbsp; webinars voor nieuwe en bestaande leden op een wekelijkse basis.</p>
-				<p>Met diverse onderwerpen en zijn zeer leerzaam,</p>
+				<p>Hier worden diverse onderwerpen behandeld en zijn zeer leerzaam,</p>
 				<p class='ltr-arrow relative'>introductie in eenvoudige voorbeelden van de belangrijkste componenten van het blockchainbedrijf Cryptoperformance.</p>
 				<p class='ltr-arrow relative'>Wat is überhaupt een blockchain.</p>
 				<p class='ltr-arrow relative'>Hoe werkt hun CPBanq in combinatie met je huidige bankrekening of crypto wallets.</p>

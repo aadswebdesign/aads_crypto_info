@@ -1,5 +1,4 @@
 /** factory/awd_base.css */
-
 .absolute{
 	position:absolute;
 }
@@ -39,7 +38,6 @@
 .a-underline-dotted{
 	text-decoration: underline dotted;
 }
-
 .padding-one{
 	width: inherit;
 	padding-left: 1.6rem;
@@ -55,7 +53,6 @@
 	height: 0.6em;
 	bottom: 0;
 }
-
 .quoted-single::before{
 	content:"\2018";
 	font-size: 1.2em;
@@ -67,12 +64,11 @@
 	height: 0.6em;
 	bottom: 0;
 }
-
 .ltr-arrow::before{
 	content:"\2192";
 	padding-right: 0.3rem;
 	vertical-align: baseline;
-	font-size: 1.2em;
+	font-size: 1.0em;
 }
 .to-up-caret::before{
 	content:"\25B2";	
@@ -98,6 +94,19 @@
 	position: relative;
 	font-size: 1.2em;
 }
+.list-circle{
+	list-style: circle inside;
+}	
+.list-disc{
+	list-style: disc inside;
+}
+.list-square{
+	list-style: square inside;
+}
+.text-center{
+	text-align: center;
+}
+
 /* DETAILS/SUMMARY BASE STYLES */
 details summary{
 	width: fit-content;
@@ -111,8 +120,3 @@ details .details-content{
 	width: fit-content;
 	
 }
-details .details-content p{
-	
-}
-
-

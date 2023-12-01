@@ -65,6 +65,8 @@ div.top-block div.page-tabs{
 }
 
 details.page-tab .details-content{
+	padding: 0.8rem 0.6rem;
+	width: fit-content;
 	min-width: 17.5rem;
 	flex-flow: row wrap;
 	font-size: 1.3rem;	
@@ -76,11 +78,28 @@ details.page-tab .details-content{
 	border-right-color: #1e2024;
 	border-bottom-color: #1e2024;
 	border-left-color: #e2e4e7;
+	overflow-y: auto;
+	scrollbar-color: rgb(77,87,40) rgb(150,170,79);
+	scrollbar-width: thin;
 }
-details.page-tab .details-content h3{
+details.page-tab h3{
 	color: rgb(77,87,40);
 	font-weight: 600;
 	font-size: 1.4rem;	
+	width: 100%;
+}
+details.page-tab[open] ul{
+	width: 100%;
+	padding-top: 0.2rem;
+}
+details.page-tab[open] .details-content ul li{
+	padding: 0 0.2rem 0.2rem;
+}
+details.page-tab[open] .details-content strong{
+	color: rgba(51,58,27,0.6);
+}	
+details.page-tab[open] strong.topic{
+	color: rgb(0,64,128);
 }
 details.page-tab summary{
 	padding: 0 0.25em 0.15em 0.25em;
@@ -105,7 +124,9 @@ details.page-tab[open] summary{
 	color: rgb(77,87,40);
 	
 }
-
+details.page-tab.tab-two[open] .details-content{
+	width: 60.0rem;
+}
 
 
 

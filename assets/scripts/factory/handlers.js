@@ -1,7 +1,7 @@
 /** assets/scrips/factory/handlers.js */
 import * as FT from './functions.js';
 import {template_Actions} from './../modules/callbacks/callback_0.js';
-export const detailsEventsHandler = async (_details_el, _parent_el,gap_x,gap_y, _log = false)=>{
+export const detailsEventsHandler = async (_details_el, _parent_el,gap_x, gap_y, _log = false)=>{
 	/** 
 	 * todo:
 	 *	-> add more options
@@ -14,10 +14,11 @@ export const detailsEventsHandler = async (_details_el, _parent_el,gap_x,gap_y, 
 	 *  -> to-right-caret
 	 *  -> to-down-caret
 	 *  -> to-left-caret todo
-	 *  -> tab-one todo
-	 *  -> tab-two todo
+	 *  -> tab-one
+	 *  -> tab-two
 	 *  -> tab-three todo
 	 *  -> tab-four todo
+	 *  -> section.top
 	 */
 	const caret = {
 		up: 'to-up-caret',
@@ -40,67 +41,37 @@ export const detailsEventsHandler = async (_details_el, _parent_el,gap_x,gap_y, 
 		height: window.innerHeight,
 		width: window.innerWidth
 	};
-	console.table({'win': win});
-	const media = {
-		orientation: window.matchMedia("(orientation: portrait)"),
-		max342 : window.matchMedia("(max-width: 342px)"),
-		min343 : window.matchMedia("(min-width: 343px)")
-	};
-	
-	
-	
 	if(_details_el){
 		let pe;
 		if(_parent_el){
 			const parent_el = await  FT.elQuery(_parent_el);
 			pe = parent_el ? parent_el : null;
 		}
+		const parent_dim ={
+			height: pe.offsetHeight,
+			width: pe.offsetWidth
+		};
 		const _elements = await FT.elQuery(_details_el,true, pe);
-		_elements.forEach(elem => {
-			const details_content = elem.querySelector('div.details-content');
-			const details_summary = elem.querySelector('summary');
-			const summary = {
+		for (const elem of _elements){
+			const details_content = await FT.elQuery('div.details-content',false,elem);
+			const details_summary = await FT.elQuery('summary',false,elem);
+			const summary_dim = {
 				height: details_summary.offsetHeight,
 				width: details_summary.offsetWidth
 			};
 			if(true === _log){
-				console.log('elem1:',elem);
-				console.log('details_summary1:',details_summary);
-				console.log('details_content1:',details_content);
-				console.log('summary1:', summary);
+				console.log('elem1: ', elem);
+				console.log('details_content: ', details_content);
+				console.log('details_summary: ', details_summary);
+				console.log('summary_dim:', summary_dim);
 			}
 			elem.addEventListener('toggle', (event) => {
-				const content = {
+				const content_dim = {
 					height: details_content.offsetHeight,
 					width: details_content.offsetWidth
 				};
-				let down_size,up_size,right_size;
-				if(media.orientation.matches && media.max342.matches){
-					console.log('portrait,max342');
-					up_size = content.height + gap_y + 'px';
-					right_size = summary.width + gap_x + 'px';
-					switch (true){
-						case elem.classList.contains('tab-two'):
-							down_size = summary.height + summary.height + gap_y + 7 + 'px';
-						break;
-						case elem.classList.contains('tab-one'):
-							down_size = summary.height + gap_y + 'px';
-						break;
-					}
-				}else{
-					console.log('not portrait,max342');
-					up_size = content.height + gap_y + 'px';
-					down_size = summary.height + gap_y + 'px';
-				}
-				//todo const left_size = 
-				
-				if(true === _log){
-					console.log('elem2:',elem);
-					console.log('details_summary2:',details_summary);
-					console.log('details_content2:',details_content);
-					console.log('content2:', content);
-					console.log('summary2:', summary);
-				}
+				const up_size = content_dim.height + gap_y + 'px';
+				const down_size = parent_dim.height + gap_y + 'px';
 				switch (true){
 					case elem.classList.contains(opens.up):
 						details_content.style.top = '-' + up_size;
@@ -114,35 +85,13 @@ export const detailsEventsHandler = async (_details_el, _parent_el,gap_x,gap_y, 
 							details_summary.title = 'Open';
 						}			
 					break;
-					//todo testing 1
 					case elem.classList.contains(opens.right):
-						details_content.style.left = right_size;
-						if(elem.open){
-							details_summary.classList.add(caret.left);
-							details_summary.classList.remove(caret.right);
-							details_summary.title = 'Close';
-						}else{
-							details_summary.classList.remove(caret.left);
-							details_summary.classList.add(caret.right);
-							details_summary.title = 'Open';
-						}			
+					//todo
 					break;
-					//todo testing 2
 					case elem.classList.contains(opens.up_right):
-						details_content.style.top = '-' + up_size;
-						details_content.style.left = right_size;
-						if(elem.open){
-							details_summary.classList.add(caret.down);
-							details_summary.classList.remove(caret.up);
-							details_summary.title = 'Close';
-						}else{
-							details_summary.classList.remove(caret.down);
-							details_summary.classList.add(caret.up);
-							details_summary.title = 'Open';
-						}			
+					//todo
 					break;
 					case elem.classList.contains(opens.down):
-						//details_content.style.top = down_size;
 						details_content.style.top = down_size;
 						if(elem.open){
 							details_summary.classList.add(caret.up);
@@ -154,24 +103,15 @@ export const detailsEventsHandler = async (_details_el, _parent_el,gap_x,gap_y, 
 							details_summary.title = 'Open';
 						}
 					break;
-					//todo testing 3
 					case elem.classList.contains(opens.left):
-						//todo details_content.style.right = - left_size;
-						console.log('todo open-left');
-						if(elem.open){
-							details_summary.classList.add(caret.right);
-							details_summary.classList.remove(caret.left);
-							details_summary.title = 'Close';
-						}else{
-							details_summary.classList.remove(caret.right);
-							details_summary.classList.add(caret.left);
-							details_summary.title = 'Open';
-						}			
+					//todo
 					break;
 				}
+				if(true === _log){
+					console.log('content_dim: ', content_dim);
+				}
 			});
-		});
-
+		}
 	}
 };
 export const detailsTabsHandler = async (_details_el, _parent_el, _log = false)=>{
@@ -193,6 +133,135 @@ export const detailsTabsHandler = async (_details_el, _parent_el, _log = false)=
 		});
 	}
 }; 
+export const detailsSizesHandler = async (_child_el,_parent_el,_grant_el,gap_x, gap_y,_log=false) =>{//
+	/** todo
+	 * require elements and classes
+	 * header
+	 * .top-block
+	 *
+	 *
+	 */
+	const win_dims = {
+		height: window.innerHeight,
+		width: window.innerWidth
+	};
+	const media = {
+		orientation: window.matchMedia("(orientation: portrait)"),
+		max360 : window.matchMedia("(max-width: 360px)"),
+		min343 : window.matchMedia("(min-width: 343px)")
+	};
+	if(_log === true){
+		console.table({
+			'win_dims:': win_dims,
+			'media': media
+		});
+	}
+	if(_child_el){
+		let pe;
+		if(_parent_el){
+			const parent_el = await  FT.elQuery(_parent_el);
+			pe = parent_el ? parent_el : null;
+		}
+		const children = await FT.elQuery(_child_el,true, pe); 
+		const footer_block = await FT.elQuery('footer.footer-block');
+		const ftr_block_height = footer_block.offsetHeight;	
+		const grant = await FT.elQuery(_grant_el);  
+		const top_elem = {
+			hdr: await FT.elQuery('header',false, grant),
+			block: await FT.elQuery('.top-block',false, grant)
+		};
+		const hdr_dims = {
+			height: top_elem.hdr.offsetHeight,
+			width: top_elem.hdr.offsetWidth
+		};
+		const block_dims = {
+			height: top_elem.block.offsetHeight,
+			width: top_elem.block.offsetWidth
+		};
+		const grant_dims = {
+			height: grant.offsetHeight,
+			width: grant.offsetWidth
+		};
+		const parent_dims = {
+			height: pe.offsetHeight,
+			width: pe.offsetWidth
+		};
+		if(_log === true){
+			console.log('parent_el: ', pe);
+			console.log('grant_el: ', grant);
+			console.table({
+				'hdr_dims': hdr_dims,
+				'block_dims': block_dims,
+				'parent_dims': parent_dims
+			});
+		}
+		const ft_detail = await FT.elQuery('.block-one details', false,footer_block);	
+		for (const child_el of children){
+			const contents = {
+				top_el: await FT.elQuery('div.details-content',false,child_el),
+				ftr_el: await FT.elQuery('div.details-content',false, ft_detail)
+			};
+			const summaries ={
+				top_el: await FT.elQuery('summary',false,child_el),
+				ftr_el: await FT.elQuery('summary',false, ft_detail)
+			};
+			const top_summary_dims = {
+				height: summaries.top_el.offsetHeight,
+				width: summaries.top_el.offsetWidth
+			};
+			const ftr_summary_dims = {
+				height: summaries.ftr_el.offsetHeight,
+				width: summaries.ftr_el.offsetWidth
+			};
+			if(_log === true){
+				console.table({
+					'top_summary_dims': top_summary_dims,
+					'ftr_summary_dims': ftr_summary_dims
+				});
+				console.log('child_el: ',child_el);
+				console.log('ft_detail: ',ft_detail);
+			}
+			child_el.addEventListener('toggle', (event)=>{
+				if(event.target.open){
+					const top_content_dims = {
+						height: contents.top_el.offsetHeight,
+						width: contents.top_el.offsetWidth
+					};
+					const ftr_content_dims = {
+						height: contents.ftr_el.offsetHeight ?? 0,
+						width: contents.ftr_el.offsetWidth
+					};
+					const ftr_height = footer_block.offsetHeight;
+					const height_set1 = grant_dims.height + ftr_height + ftr_height + ftr_height;
+					const height_set2 = win_dims.height - height_set1;
+					const width_set1 = win_dims.width + 300;
+					if(_log === true){
+						console.table({
+							'top_content_dims':top_content_dims,
+							'ftr_content_dims':ftr_content_dims
+						});
+					}
+					if(media.orientation.matches && media.max360.matches){
+						contents.top_el.style.maxHeight = height_set2 + 'px';
+						contents.top_el.style.maxWidth = 300 + 'px';
+						if(child_el.classList.contains('tab-one')){
+							const to_left = parent_dims.width - top_content_dims.width;
+							contents.top_el.style.left = '-' + to_left - 60 + 'px';
+						}
+					}else{
+						const el_height_sum = top_content_dims.height + grant_dims.height;
+						if(el_height_sum > win_dims.height){
+							contents.top_el.style.height = win_dims.height - grant_dims.height - ftr_height - ftr_height - ftr_height + 'px';
+						}
+						if(top_content_dims.width > parent_dims.width){
+							contents.top_el.style.width = parent_dims.width - 50 + 'px';
+						}
+					}
+				}
+			});
+		}
+	}
+};
 export async function pagingHandler(_object_args,__hashes = [..._hashes],__data=[..._data],_log = false){
 	const object_args = new Map([['objects',_object_args]]) 
 	const obj= object_args.get('objects');

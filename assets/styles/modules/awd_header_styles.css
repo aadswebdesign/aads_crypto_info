@@ -66,8 +66,8 @@ div.top-block div.page-tabs{
 
 details.page-tab .details-content{
 	padding: 0.8rem 0.6rem;
-	width: fit-content;
-	min-width: 17.5rem;
+	width: 35.0rem;
+	max-height: 80vh;
 	flex-flow: row wrap;
 	font-size: 1.3rem;	
 	background: rgb(141,192,250);
@@ -88,6 +88,7 @@ details.page-tab h3{
 	font-size: 1.4rem;	
 	width: 100%;
 }
+
 details.page-tab[open] ul{
 	width: 100%;
 	padding-top: 0.2rem;
@@ -125,7 +126,8 @@ details.page-tab[open] summary{
 	
 }
 details.page-tab.tab-two[open] .details-content{
-	width: 60.0rem;
+	
+	
 }
 
 

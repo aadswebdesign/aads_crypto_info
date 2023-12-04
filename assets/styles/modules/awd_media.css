@@ -1,5 +1,5 @@
 /** styles/modules/awd_media.css */
-@media (min-width: 320px) and (max-width: 647px) and (orientation : portrait) {
+@media (min-width: 320px) and (orientation : portrait) {
 	body{
 		height:93vh;
 	}
@@ -33,12 +33,12 @@
 		overflow-x: hidden;
 	}
 	details.page-tab .details-content{
-		left: 1.0rem;
-		max-height: calc(93vh - 10.0rem);
+		width: 17.5rem;
 		overflow-y: auto;
+		overflow-x: hidden;
 	}
 	section.top div.top-block div.page-tabs{
-		transform: translate(0,-5px);
+		transform: translate(0, -5px);
 	}
 	details.cookie-details .details-content{
 		width: 19.0rem;
@@ -52,7 +52,18 @@
 	details.cookie-details .details-content p{
 	}
 }
-@media (min-width: 480px) and (max-width: 780px) and (orientation : landscape) {
+@media (min-width: 571px) and (orientation : portrait) {
+	section.top div.top-block div.page-tabs{
+		transform: translate(0);
+	}
+	
+	
+}
+
+
+
+
+@media (min-width: 480px) and (orientation : landscape) {
 	body{
 		height: 87vh;
 	}
@@ -89,4 +100,39 @@
 		padding: 0.2em 0 0.5em;
 		width: calc(100% - 2.0em);
 	}
+	details.page-tab .details-content{
+		width: 28.0rem;
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+	section.top div.top-block div.page-tabs{
+		transform: translate(0, -5px);
+	}
 }
+@media (min-width: 571px) and (orientation : landscape) {
+	details.page-tab .details-content{
+		width: 28.0rem;
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+	section.top div.top-block div.page-tabs{
+		transform: translate(0,0);
+	}
+}
+
+@media (min-width: 786px) and (orientation : landscape){
+	body{
+		height:100vh;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

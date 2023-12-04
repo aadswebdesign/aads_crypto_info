@@ -43,15 +43,15 @@
 	padding-left: 1.6rem;
 }
 .quoted-double::before{
-	content:"\2033";
+	content:"\201C";
 	font-size: 1.2em;
 }
 .quoted-double::after{
-	content:"\2036";
+	content:"\201D";
 	font-size: 1.2em;
 	position: absolute;
 	height: 0.6em;
-	bottom: 0;
+	top: 0;
 }
 .quoted-single::before{
 	content:"\2018";
@@ -62,7 +62,7 @@
 	font-size: 1.2em;
 	position: absolute;
 	height: 0.6em;
-	bottom: 0;
+	top: 0;
 }
 .ltr-arrow::before{
 	content:"\2192";

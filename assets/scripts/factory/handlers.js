@@ -133,135 +133,78 @@ export const detailsTabsHandler = async (_details_el, _parent_el, _log = false)=
 		});
 	}
 }; 
-export const detailsSizesHandler = async (_child_el,_parent_el,_grant_el,gap_x, gap_y,_log=false) =>{//
-	/** todo
-	 * require elements and classes
-	 * header
-	 * .top-block
-	 *
-	 *
-	 */
-	const win_dims = {
-		height: window.innerHeight,
-		width: window.innerWidth
-	};
-	const media = {
-		orientation: window.matchMedia("(orientation: portrait)"),
-		max360 : window.matchMedia("(max-width: 360px)"),
-		min343 : window.matchMedia("(min-width: 343px)")
-	};
-	if(_log === true){
-		console.table({
-			'win_dims:': win_dims,
-			'media': media
-		});
-	}
+export const detailsContentHandler = async (_child_el,_parent_el,pos_x, pos_y,_log=false) =>{
+	const vp = window.visualViewport;
+	console.log('vp:',vp);
+	const footer_block = await FT.elQuery('footer.footer-block');
+	const main_block = await FT.elQuery('main');
+	const top_block =  await FT.elQuery('section.top');
+	
+	
+	
+	
+	
 	if(_child_el){
 		let pe;
 		if(_parent_el){
 			const parent_el = await  FT.elQuery(_parent_el);
 			pe = parent_el ? parent_el : null;
 		}
-		const children = await FT.elQuery(_child_el,true, pe); 
-		const footer_block = await FT.elQuery('footer.footer-block');
-		const ftr_block_height = footer_block.offsetHeight;	
-		const grant = await FT.elQuery(_grant_el);  
-		const top_elem = {
-			hdr: await FT.elQuery('header',false, grant),
-			block: await FT.elQuery('.top-block',false, grant)
-		};
-		const hdr_dims = {
-			height: top_elem.hdr.offsetHeight,
-			width: top_elem.hdr.offsetWidth
-		};
-		const block_dims = {
-			height: top_elem.block.offsetHeight,
-			width: top_elem.block.offsetWidth
-		};
-		const grant_dims = {
-			height: grant.offsetHeight,
-			width: grant.offsetWidth
-		};
-		const parent_dims = {
-			height: pe.offsetHeight,
-			width: pe.offsetWidth
-		};
-		if(_log === true){
-			console.log('parent_el: ', pe);
-			console.log('grant_el: ', grant);
-			console.table({
-				'hdr_dims': hdr_dims,
-				'block_dims': block_dims,
-				'parent_dims': parent_dims
-			});
-		}
-		const ft_detail = await FT.elQuery('.block-one details', false,footer_block);	
-		for (const child_el of children){
-			const contents = {
-				top_el: await FT.elQuery('div.details-content',false,child_el),
-				ftr_el: await FT.elQuery('div.details-content',false, ft_detail)
-			};
-			const summaries ={
-				top_el: await FT.elQuery('summary',false,child_el),
-				ftr_el: await FT.elQuery('summary',false, ft_detail)
-			};
-			const top_summary_dims = {
-				height: summaries.top_el.offsetHeight,
-				width: summaries.top_el.offsetWidth
-			};
-			const ftr_summary_dims = {
-				height: summaries.ftr_el.offsetHeight,
-				width: summaries.ftr_el.offsetWidth
-			};
-			if(_log === true){
-				console.table({
-					'top_summary_dims': top_summary_dims,
-					'ftr_summary_dims': ftr_summary_dims
-				});
-				console.log('child_el: ',child_el);
-				console.log('ft_detail: ',ft_detail);
-			}
-			child_el.addEventListener('toggle', (event)=>{
+		const child = await FT.elQuery(_child_el,false, pe);
+		if (child){
+			child.addEventListener('toggle', (event)=>{
 				if(event.target.open){
-					const top_content_dims = {
-						height: contents.top_el.offsetHeight,
-						width: contents.top_el.offsetWidth
+					const vp_props = {
+						width: vp.width,
+						height: vp.height
 					};
-					const ftr_content_dims = {
-						height: contents.ftr_el.offsetHeight ?? 0,
-						width: contents.ftr_el.offsetWidth
+					const parent_dims = {
+						width: pe.offsetWidth,
+						height: pe.offsetHeight
 					};
-					const ftr_height = footer_block.offsetHeight;
-					const height_set1 = grant_dims.height + ftr_height + ftr_height + ftr_height;
-					const height_set2 = win_dims.height - height_set1;
-					const width_set1 = win_dims.width + 300;
-					if(_log === true){
-						console.table({
-							'top_content_dims':top_content_dims,
-							'ftr_content_dims':ftr_content_dims
-						});
+					const child_dims = {
+						width: child.offsetWidth,
+						height: child.offsetHeight
+					};
+					const footer_block_dims = {
+						width: footer_block.offsetWidth,
+						height: footer_block.offsetHeight
+					};
+					const main_block_dims ={
+						width: main_block.offsetWidth,
+						height: main_block.offsetHeight
+						
 					}
-					if(media.orientation.matches && media.max360.matches){
-						contents.top_el.style.maxHeight = height_set2 + 'px';
-						contents.top_el.style.maxWidth = 300 + 'px';
-						if(child_el.classList.contains('tab-one')){
-							const to_left = parent_dims.width - top_content_dims.width;
-							contents.top_el.style.left = '-' + to_left - 60 + 'px';
-						}
-					}else{
-						const el_height_sum = top_content_dims.height + grant_dims.height;
-						if(el_height_sum > win_dims.height){
-							contents.top_el.style.height = win_dims.height - grant_dims.height - ftr_height - ftr_height - ftr_height + 'px';
-						}
-						if(top_content_dims.width > parent_dims.width){
-							contents.top_el.style.width = parent_dims.width - 50 + 'px';
-						}
-					}
+					const top_block_dims = {
+						width: top_block.offsetWidth,
+						height: top_block.offsetHeight
+					};
+					const content_el = child.querySelector('div.details-content'); 
+					const content_el_dims = {
+						width: content_el.offsetWidth,
+						height: content_el.offsetHeight
+					};
+					
+					content_el.style.left = pos_x + 'px' ?? 0;
+					//content_el.style.left = '-' + content_pane_to_left + child_dims.width + 'px' ?? 0;
+					const content_pane_height = main_block_dims.height;
+					content_el.style.maxHeight = content_pane_height + pos_y + 'px' ?? 0;
+					//console.log('content_pane_to_left',content_pane_to_left);
+					console.table({
+						'viewport_props': vp_props,
+						'top_block_dims': top_block_dims,
+						'footer_block_dims': footer_block_dims
+					});
+					return content_el;
 				}
 			});
 		}
 	}
-};
+}//let see
+
+
+
+
 export async function pagingHandler(_object_args,__hashes = [..._hashes],__data=[..._data],_log = false){
 	const object_args = new Map([['objects',_object_args]]) 
 	const obj= object_args.get('objects');
@@ -308,7 +251,7 @@ export async function pagingHandler(_object_args,__hashes = [..._hashes],__data=
 	};
 	if(target_class){
 		target_class.addEventListener('click', function(event){
-			if(true !== _log){
+			if(true === _log){
 				console.log(event.target.id);
 			}
 			if (!event.target.id){

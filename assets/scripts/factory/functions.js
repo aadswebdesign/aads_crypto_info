@@ -75,6 +75,16 @@ export async function elQuery(_element,_all = false,_parent){
 	}
     return await _el;
 }
+export const getComputed = (_elem, property,_log = false) =>{
+	if(_elem){
+		const comp = window.getComputedStyle(_elem);
+		if(_log === true){
+			console.log('comp:', comp);
+		}
+		return comp.getPropertyValue(property)
+	}
+	return null;
+};
 export const getContent = async (_elem,_parent) =>{
 	let _el;
 	if(null !== _elem){
@@ -138,8 +148,8 @@ export const lorem_ipsum = async ()=>{
 	Donec nec imperdiet nibh, nec vehicula libero. Phasellus velmalesuada nulla.
 	Aliquam sed magna aliquam, vestibulum nisi at,cursus nunc.</span></p>`;
 };
-export async function percentage(partialValue, totalValue) {
-   return await Math.round((partialValue / totalValue) * 100);
+export function percentage(partialValue, totalValue) {
+   return Math.round((partialValue / totalValue) * 100);
 } //todo. make use of the % operator
 export const removeClass = async (_elem,_class,_parent = null)=>{
 	let el;

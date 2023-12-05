@@ -133,78 +133,56 @@ export const detailsTabsHandler = async (_details_el, _parent_el, _log = false)=
 		});
 	}
 }; 
-export const detailsContentHandler = async (_child_el,_parent_el,pos_x, pos_y,_log=false) =>{
-	const vp = window.visualViewport;
-	console.log('vp:',vp);
-	const footer_block = await FT.elQuery('footer.footer-block');
+export const detailsContentHandler = async (_details_el,_parent_el, pos_y,_log=false)=>{
 	const main_block = await FT.elQuery('main');
-	const top_block =  await FT.elQuery('section.top');
-	
-	
-	
-	
-	
-	if(_child_el){
+	if(_details_el){
 		let pe;
 		if(_parent_el){
 			const parent_el = await  FT.elQuery(_parent_el);
 			pe = parent_el ? parent_el : null;
-		}
-		const child = await FT.elQuery(_child_el,false, pe);
-		if (child){
+		}		
+		const children = await FT.elQuery(_details_el,true, pe);
+		for (const child of children){
+			const details_spacer = await FT.elQuery('div.details-spacer',false, child);          
 			child.addEventListener('toggle', (event)=>{
-				if(event.target.open){
-					const vp_props = {
-						width: vp.width,
-						height: vp.height
-					};
-					const parent_dims = {
-						width: pe.offsetWidth,
-						height: pe.offsetHeight
-					};
-					const child_dims = {
-						width: child.offsetWidth,
-						height: child.offsetHeight
-					};
-					const footer_block_dims = {
-						width: footer_block.offsetWidth,
-						height: footer_block.offsetHeight
-					};
-					const main_block_dims ={
-						width: main_block.offsetWidth,
-						height: main_block.offsetHeight
+				const child_dims = {
+					width: child.offsetWidth,
+					height: child.offsetHeight
+				};
+				const main_block_dims ={
+					width: main_block.offsetWidth,
+					height: main_block.offsetHeight
 						
-					}
-					const top_block_dims = {
-						width: top_block.offsetWidth,
-						height: top_block.offsetHeight
-					};
-					const content_el = child.querySelector('div.details-content'); 
-					const content_el_dims = {
-						width: content_el.offsetWidth,
-						height: content_el.offsetHeight
-					};
-					
-					content_el.style.left = pos_x + 'px' ?? 0;
-					//content_el.style.left = '-' + content_pane_to_left + child_dims.width + 'px' ?? 0;
-					const content_pane_height = main_block_dims.height;
-					content_el.style.maxHeight = content_pane_height + pos_y + 'px' ?? 0;
-					//console.log('content_pane_to_left',content_pane_to_left);
+				}
+				const content_el = child.querySelector('div.details-content', false, child); 
+				const content_el_dims = {
+					width: content_el.offsetWidth,
+					height: content_el.offsetHeight
+				};
+				// horizontal position
+				const details_spacer_width = details_spacer.offsetWidth;
+				const main_block_plus = main_block_dims.width - content_el_dims.width;
+				const to_left_sub = main_block_plus / 2;			
+				const to_left = main_block_dims.width - details_spacer_width;
+				content_el.style.left = '-' + to_left + 'px' ?? 0;
+				content_el.style.transform = "translate(" + to_left_sub + "px,0)";
+				// vertical height
+				content_el.style.maxHeight = main_block_dims.height + pos_y + 'px' ?? 0;
+				if(true === _log){
 					console.table({
-						'viewport_props': vp_props,
-						'top_block_dims': top_block_dims,
-						'footer_block_dims': footer_block_dims
+						'child_dims:': child_dims,
+						'main_block_dims:' : main_block_dims,
+						'content_el_dims:' : content_el_dims
 					});
-					return content_el;
+					console.log('to_left_sub:',to_left_sub);
+					console.log('to_left:',to_left);
+					console.log('content_el:',content_el);
+					//console.log(':',);
 				}
 			});
 		}
 	}
-}//let see
-
-
-
-
+};
 export async function pagingHandler(_object_args,__hashes = [..._hashes],__data=[..._data],_log = false){
 	const object_args = new Map([['objects',_object_args]]) 
 	const obj= object_args.get('objects');

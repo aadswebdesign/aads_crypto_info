@@ -32,7 +32,7 @@
 	div.block.page{
 		overflow-x: hidden;
 	}
-	details.page-tab .details-content{
+	details.page-tab[open] .details-content{
 		width: 17.5rem;
 		overflow-y: auto;
 		overflow-x: hidden;

@@ -125,12 +125,16 @@ details.page-tab[open] summary{
 	color: rgb(77,87,40);
 	
 }
-details.page-tab.tab-two[open] .details-content{
-	
-	
+details.page-tab[open] .details-spacer{
+	top: 50px;
+	height: 1px;
 }
-
-
+details.page-tab.tab-one[open] .details-spacer{
+	left: 154px;
+}
+details.page-tab.tab-two[open] .details-spacer{
+	left: 8px;
+}
 
 
 

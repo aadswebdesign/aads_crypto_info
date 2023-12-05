@@ -7,6 +7,7 @@ export async function tabsTemplateOne(){
 	const template = `
 		<details class='page-tab tab-two open-down relative'>
 			<summary class='to-down-caret relative' title='Open'>Blockchain</summary>
+			<div class='details-spacer fixed'></div>
 			<div class='details-content absolute display-flex'>
 				<h3 class='text-center'>What is a blockchain?</h3>
 				<p>A blockchain is a distributed ledger technology (DLT) that allows for secure, transparent, and tamper-proof transactions. It is a decentralized database that is shared among a network of computers. This means that there is no single point of failure, and the data is very difficult to hack.</p>
@@ -28,6 +29,7 @@ export async function tabsTemplateOne(){
 		</details>	
 		<details class='page-tab tab-one open-down relative'>
 			<summary class='to-down-caret relative' title='Open'>MLM</summary>
+			<div class='details-spacer fixed'></div>
 			<div class='details-content absolute display-flex'>
 				<h3>MultiLevelMarketing,</h3>
 				<p>For this blockchain company, it was never the intention to set up a permanent <strong>MLM</strong> program.</p>

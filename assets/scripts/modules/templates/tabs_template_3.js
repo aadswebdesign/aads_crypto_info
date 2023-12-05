@@ -7,6 +7,7 @@ export async function tabsTemplateThree(){
 	const template = `
 		<details class='page-tab tab-two open-down relative'>
 			<summary class='to-down-caret relative' title='Open'>Blockchain</summary>
+			<div class='details-spacer fixed'></div>
 			<div class='details-content absolute display-flex'>
 				<h3>อีบล็อคเชนคืออะไร?</h3>
 				<p>บล็อกเชนเป็นเทคโนโลยีบัญชีแยกประเภทแบบกระจาย (DLT) ที่ช่วยให้การทำธุรกรรมมีความปลอดภัย โปร่งใส และป้องกันการงัดแงะ เป็นฐานข้อมูลแบบกระจายอำนาจที่ใช้ร่วมกันระหว่างเครือข่ายคอมพิวเตอร์ ซึ่งหมายความว่าไม่มีจุดล้มเหลวแม้แต่จุดเดียว และข้อมูลก็ถูกแฮ็กได้ยากมาก</p>
@@ -28,6 +29,7 @@ export async function tabsTemplateThree(){
 		</details>	
 		<details class='page-tab tab-one open-down relative'>
 			<summary class='to-down-caret relative' title='Open'>MLM</summary>
+			<div class='details-spacer fixed'></div>
 			<div class='details-content absolute display-flex'>
 				<h3 style='font-size: 1.8rem;'>การตลาดหลายระดับ</h3>
 				<p>สำหรับบริษัทบล็อคเชนนี้ ไม่เคยมีความตั้งใจที่จะจัดตั้งโปรแกรม <strong>MLM</strong> แบบถาวร.</p>

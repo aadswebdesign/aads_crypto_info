@@ -43,24 +43,26 @@
 	padding-left: 1.6rem;
 }
 .quoted-double::before{
+	position: relative;
 	content:"\201C";
 	font-size: 1.2em;
 }
 .quoted-double::after{
 	content:"\201D";
 	font-size: 1.2em;
-	position: absolute;
+	position: relative;
 	height: 0.6em;
 	top: 0;
 }
 .quoted-single::before{
+	position: relative;
 	content:"\2018";
 	font-size: 1.2em;
 }
 .quoted-single::after{
 	content:"\2019";
 	font-size: 1.2em;
-	position: absolute;
+	position: relative;
 	height: 0.6em;
 	top: 0;
 }

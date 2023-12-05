@@ -10,7 +10,7 @@ export async function templateThree(){
 			<article class='disclaimer relative'>
 				<header class='relative'><h2>ข้อสงวนสิทธิ์</h2></header>
 				<h3>ตอนแรก.</h3>
-				<p class='ltr-arrow relative'>นอกจากนี้ เว็บไซต์นี้ไม่ได้เชื่อมต่อกับ  บริษัทบล็อคเชน <strong>CryptoPerformance Group (โทรมาจากที่นี่ <span class='quoted-single relative'>CPGroup</span>&nbsp;&nbsp;)</strong> และแผนกที่อยู่เบื้องหลังแต่อย่างใด.</p>
+				<p class='ltr-arrow relative'>นอกจากนี้ เว็บไซต์นี้ไม่ได้เชื่อมต่อกับ  บริษัทบล็อคเชน <strong>CryptoPerformance Group</strong> ( โทรมาจากที่นี่  <span class='quoted-single relative'><strong>CPGroup</strong></span>) และแผนกที่อยู่เบื้องหลังแต่อย่างใด.</p>
 				<p class='ltr-arrow relative'>นี่ไม่ใช่คำแนะนำทางการเงิน แต่เป็นเพียงการแสดงข้อมูลในมุมมองส่วนตัวของฉันเกี่ยวกับบริษัทบล็อกเชนนี้.</p>
 				<h3>ความเสี่ยง.</h3>
 				<p class='ltr-arrow relative'>เช่นเดียวกับธุรกิจอื่นๆ ก็มีความเสี่ยง โปรดระวัง!</p>
@@ -22,7 +22,7 @@ export async function templateThree(){
 				<p class='ltr-arrow relative'>อย่างน้อยที่สุด ตรวจสอบให้แน่ใจว่าคุณมีเงินเหลืออยู่บ้าง ในกรณีที่คุณมีค่าใช้จ่ายที่ไม่คาดคิดเกิดขึ้น (เช่น เครื่องซักผ้าเสีย?).</p>
 				<p class='ltr-arrow relative'>ตรวจสอบให้แน่ใจว่ากิจกรรมของบริษัทบล็อกเชนนี้ถูกกฎหมายในประเทศไทย!</p>
 				<h3>ล่าสุด,</h3>
-				<p>บริษัทบล็อคเชน CPGroup มีของเขาเอง <span class='quoted-single relative'>เอกสารไวท์เปเปอร์'</span>&nbsp;&nbsp; ของตัวเอง และคุณจะพบได้ที่นี่  
+				<p>บริษัทบล็อคเชน CPGroup มีของเขาเอง <span class='quoted-single relative'>เอกสารไวท์เปเปอร์'</span> ของตัวเอง และคุณจะพบได้ที่นี่  
 					<a target='blanc' href='https://cpcoin.io/wp-content/uploads/2023/09/CPCoin_WhitePaper_V.05.2023_1-small.pdf' class='a-underline'>กระดาษสีขาว</a>
 				.</p>
 				<p>คุณจะพบวิสัยทัศน์โดยละเอียดเกี่ยวกับเรื่องนี้ที่นั่น (นี่เป็นภาษาอังกฤษ แต่ด้วย Google Translate คุณจะไปได้ไกล!).</p>
@@ -52,7 +52,7 @@ export async function templateThree(){
 				<h3>ประสบการณ์ของฉัน,</h3>
 				<p>อย่างที่คุณคิด ในตอนแรกฉันก็สงสัยมากเช่นกัน.</p>
 				<p class='padding-one quoted-double relative'>ฉันก็มีประสบการณ์แย่ๆเหมือนกัน. ยังคงอยู่ในการหลอกลวงสองครั้งและฉันสงสัยหรือเคยเห็นของฉันมาจากไหน
-					<span class='quoted-single relative'>โชคดีที่เล็ก</span>&nbsp;&nbsp; การลงทุนที่เคยกลับมา!
+					<span class='quoted-single relative'>โชคดีที่เล็ก</span> การลงทุนที่เคยกลับมา!
 				</p>
 				<p>ประการแรกผมเริ่มต้นด้วยการเข้าร่วมการประชุมสองครั้งและศึกษาแผนธุรกิจ.</p>
 				<p>สิ่งนี้ทำให้ฉันเข้าใจถึงโอกาสนี้และความเสี่ยงที่เกี่ยวข้อง</p>
@@ -61,7 +61,7 @@ export async function templateThree(){
 				<h3>มีส่วนร่วมลองทำดู?</h3>
 				<p class='padding-one quoted-double relative' style='color:#7e7e7e'>ก่อนอื่น การลงทะเบียนนี้ไม่มีค่าใช้จ่ายใด ๆ ทั้งสิ้น และคุณสามารถยกเลิกการสมัครรับข้อมูลได้ตลอดเวลาฟรีเช่นกัน!</p>
 				<p>อยากทราบข้อมูลเพิ่มเติมและทดลองใช้ คลิก <a style='font-size: 1.8rem;' target='blanc' href='https://ipdm.io/?sponsor=13012' class='a-underline'>เพื่อลงทะเบียน</a></p>
-				<p class='padding-one quoted-double relative'>Note: ในช่วงต้นเดือนมกราคม พ.ศ. 2567, ที่ <span class='quoted-single relative'>การตลาดหลายระดับ</span>&nbsp;&nbsp; แผนจะถูกแทนที่ด้วยโอกาสอื่น ๆ. ดู <span class='quoted-single relative'>MLM</span>&nbsp;&nbsp; แท็บเพื่อดูเพิ่มเติม!</p>
+				<p class='padding-one quoted-double relative'>Note: ในช่วงต้นเดือนมกราคม พ.ศ. 2567, ที่ <span class='quoted-single relative'>การตลาดหลายระดับ</span> แผนจะถูกแทนที่ด้วยโอกาสอื่น ๆ. ดู <span class='quoted-single relative'>MLM</span>&nbsp;&nbsp; แท็บเพื่อดูเพิ่มเติม!</p>
 				<h3>ประวัติย่อ,</h3>
 				<p class='ltr-arrow relative'>นี่ไม่ใช่คำแนะนำทางการเงิน.</p>
 				<p class='ltr-arrow relative'>การลงทุนในสิ่งนี้ขึ้นอยู่กับริซิโกของคุณเอง.</p>
@@ -72,7 +72,7 @@ export async function templateThree(){
 				<header class='relative'><h2>หลังจากคำ.</h2></header>
 				<h3>ข้อมูลและคำแนะนำ.</h3>
 				<p class='ltr-arrow relative'>มีข้อมูลมากมายรอคุณอยู่เมื่อคุณสมัครสมาชิก ดังนั้นให้เวลาตัวเองเพื่ออ่านข้อมูลเหล่านั้น.</p>
-				<p class='ltr-arrow relative'>หากคุณมีคำถามหรือต้องการความช่วยเหลือ ฉันยินดีที่จะช่วยเหลือคุณ และคุณสามารถติดต่อฉันผ่านแผงผู้ดูแลระบบของคุณที่  blockchaincompany Crypto-Performance Group มอบให้คุณเมื่อคุณสมัคร.</p>
+				<p class='ltr-arrow relative'>หากคุณมีคำถามหรือต้องการความช่วยเหลือ ฉันยินดีที่จะช่วยเหลือคุณ และคุณสามารถติดต่อฉันผ่านแผงผู้ดูแลระบบของคุณที่  blockchaincompany CPGroup มอบให้คุณเมื่อคุณสมัคร.</p>
 				<p class='padding-one quoted-double relative'>โปรดทราบว่า: ฉันจะพยายามช่วยเหลือคุณอย่างดีที่สุดเท่าที่จะทำได้ อย่างไรก็ตามด้วยความรู้ที่ผมมีและอาจผิดพลาดหรือเกิดสถานการณ์อื่นๆที่อาจทำให้การลงทุนของคุณไม่เป็นไปด้วยดี.
 				ดังนั้นฉันไม่ยอมรับความรับผิดชอบหรือความรับผิดใด ๆ ในเรื่องนี้ ทุกขั้นตอนที่คุณทำถือเป็นความรับผิดชอบของคุณเอง.
 				</p>				
@@ -80,7 +80,7 @@ export async function templateThree(){
 				<h3>กลุ่มผู้ใช้</h3>
 				<p>น่าเสียดายที่เนเธอร์แลนด์/เบลเยียมเป็นเพียงสองประเทศที่มีกลุ่มผู้ใช้ร่วมกัน <strong>Crypto-performance NL</strong></p>
 				<p>หากคุณสมัครรับข้อมูลและสนใจทราบว่าจะเป็นอย่างไร โปรดแจ้งให้เราทราบ.</p>
-				<p>แล้วผมจะส่งลิงค์ให้ครับ  <span class='quoted-single relative'>zoom</span>&nbsp;&nbsp; webinar</p>
+				<p>แล้วผมจะส่งลิงค์ให้ครับ  <span class='quoted-single relative'>zoom</span> webinar</p>
 			</article>
 			<hr/>
 			<header class='relative'><h2>ขอบคุณสำหรับการอ่าน.</h2></header>

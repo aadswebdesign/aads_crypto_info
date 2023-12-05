@@ -11,7 +11,7 @@ export async function templateTwo(){
 			<article class='disclaimer relative'>
 				<header class='relative'><h2>Vrijwaring</h2></header>
 				<h3>Als eerste.</h3>
-				<p class='ltr-arrow relative'>Deze website is op geen enkele wijze verbonden met blockchainbedrijf <strong>CryptoPerformance Group (vanaf hier genoemd <span class='quoted-single relative'>CPGroup</span>&nbsp;&nbsp;)</strong> en haar onderliggende afdelingen.</p>
+				<p class='ltr-arrow relative'>Deze website is op geen enkele wijze verbonden met blockchainbedrijf <strong>CryptoPerformance Group</strong> (vanaf hier genoemd <span class='quoted-single relative'><strong>CPGroup</strong></span>) en haar onderliggende afdelingen.</p>
 				<p class='ltr-arrow relative'>Dit is geen financieel advies, maar slechts een Informatieve weergave van mijn persoonlijke visie op dit blockchainbedrijf.</p>
 				<h3>Risico's.</h3>
 				<p class='ltr-arrow relative'>Zoals bij elk bedrijf zijn er risico's, houd daar rekening mee!</p>
@@ -22,7 +22,7 @@ export async function templateTwo(){
 				<p class='ltr-arrow relative'>Stop er nooit al je spaargeld in, stel jezelf een maximum (laten we zeggen 20% of 30%?).</p>
 				<p class='ltr-arrow relative'>Zorg er in ieder geval voor dat u wat geld over heeft, voor het geval er onverwachte kosten optreden (bijv, de wasmachine gaat kapot?).</p>
 				<h3>Als laatste,</h3>
-				<p>Het blockchainbedrijf CPGroup heeft zijn eigen <span class='quoted-single relative'>WhitePaper</span>&nbsp;&nbsp; en deze vindt u hier 
+				<p>Het blockchainbedrijf CPGroup heeft zijn eigen <span class='quoted-single relative'>WhitePaper</span> en deze vindt u hier 
 					<a target='blanc' href='https://cpcoin.io/wp-content/uploads/2023/09/CPCoin_WhitePaper_V.05.2023_1-small.pdf' class='a-underline'>White Paper</a>
 				.</p>
 				<p>Daar vindt u hun volledige gedetailleerde visie hierop (Dit is in het Engels, maar met Google Translate kom je al een heel eind!).</p>
@@ -52,7 +52,7 @@ export async function templateTwo(){
 				<h3>Mijn ervaringen,</h3>
 				<p>Zoals je wellicht ook bent, was ik in eerste instantie ook erg wantrouwend.</p>
 				<p class='padding-one quoted-double relative'>Ook mijn persoon heeft slechte ervaringen! Nog steeds in 2 scams en waarvan ik mij afvraag of ik mijn
-					<span class='quoted-single relative'>gelukkig kleine</span>&nbsp;&nbsp; investeringen ooit terug zie komen!
+					<span class='quoted-single relative'>gelukkig kleine</span> investeringen ooit terug zie komen!
 				</p>
 				<p>Allereerst ben ik begonnen met het bijwonen van twee bijeenkomsten en het doornemen van het businessplan.</p>
 				<p>Dit gaf mij enig inzicht in deze mogelijkheid en de risico's die eraan verbonden zijn.</p>
@@ -61,7 +61,7 @@ export async function templateTwo(){
 				<h3>Deelnemen, uitproberen?</h3>
 				<p class='padding-one quoted-double relative'>Ten eerste, het inschrijven hierop is geheel gratis en u kunt u op elk moment ook weer gratis uitschrijven!</p>
 				<p>Als u meer wilt weten en het wilt uitproberen, klik op <a target='blanc' href='https://ipdm.io/?sponsor=13012' class='a-underline'>INSCHRIJVEN</a></p>
-				<p class='padding-one quoted-double relative'>Note: Op 1 januari 2024, zal het <span class='quoted-single relative'>MultiLevelMarketing</span>&nbsp;&nbsp;plan vervangen worden door andere mogelijkheden. Zie <span class='quoted-single relative'>MLM</span>&nbsp;&nbsp; tabblad voor waarom?</p>
+				<p class='padding-one quoted-double relative'>Note: Op 1 januari 2024, zal het <span class='quoted-single relative'>MultiLevelMarketing</span> plan vervangen worden door andere mogelijkheden. Zie het <span class='quoted-single relative'>MLM</span> tabblad voor waarom?</p>
 				<h3>Samenvatting,</h3>
 				<p class='ltr-arrow relative'>Dit is geen financieel advies.</p>
 				<p class='ltr-arrow relative'>Investeren hierin is op eigen risico.</p>
@@ -74,13 +74,13 @@ export async function templateTwo(){
 				<p class='ltr-arrow relative'>Als u zich abonneert, is er veel informatie die op u afkomt, geef jezelf er de tijd voor om het door te nemen.</p>
 				<p class='ltr-arrow relative'>Voordat u een investering doet, moet u ervoor zorgen dat u begrijpt wat u doet en welke risico's daaraan verbonden zijn!</p>
 				<p class='ltr-arrow relative'>Als u vragen heeft of hulp nodig heeft, wil ik u graag helpen en kunt u mij bereiken via uw beheerderspaneel dat CPGroup u ter beschikking stelt wanneer u zich aanmeldt.</p>
-				<p class='padding-one quoted-double relative'>Houd wel dit in gedachten: Ik zal proberen u zo goed mogelijk te helpen, echter is het met de kennis die ik heb en ik kan ook fouten maken of er kunnen zich andere situaties voordoen waardoor uw investering niet goed gaat.
+				<p class='padding-one quoted-double relative'>Houd wel dit in gedachten: Ik zal u zo goed mogelijk proberen te helpen, echter is het met de kennis die ik heb en ik kan ook fouten maken of er kunnen zich andere situaties voordoen waardoor uw investering niet goed gaat.
 				Daarom aanvaard ik hiervoor geen enkele verantwoordelijkheid of aansprakelijkheid. Alle stappen die u zet zijn voor uw eigen verantwoordelijkheid.
 				</p>
 				<p class='ltr-arrow relative'>Naast mijn ondersteuning heeft dit blockchainbedrijf hun eigen accurate en behulpzame supportdesk en je kunt ze bereiken via je admin panel.</p>
 				<h3>Gebruikersgroep.</h3>
 				<p>Nederland/België heeft zijn eigen unieke gebruikersgroep <strong>Crypto-performance NL</strong>.</p>
-				<p>Deze houd <span class='quoted-single relative'>zoom</span>&nbsp;&nbsp; webinars voor nieuwe en bestaande leden op een wekelijkse basis.</p>
+				<p>Deze houd <span class='quoted-single relative'>zoom</span> webinars voor nieuwe en bestaande leden op een wekelijkse basis.</p>
 				<p>Hier worden diverse onderwerpen behandeld en zijn zeer leerzaam,</p>
 				<p class='ltr-arrow relative'>introductie in eenvoudige voorbeelden van de belangrijkste componenten van het blockchainbedrijf Cryptoperformance.</p>
 				<p class='ltr-arrow relative'>Wat is überhaupt een blockchain.</p>

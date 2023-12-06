@@ -2,6 +2,7 @@
 @media (min-width: 320px) and (orientation : portrait) {
 	body{
 		height:93vh;
+		font-size: 1.1rem; 	
 	}
 	body div.agent-string{
 		width: 16rem;

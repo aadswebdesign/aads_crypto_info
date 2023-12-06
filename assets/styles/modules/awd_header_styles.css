@@ -30,11 +30,12 @@ div.top-block nav.main-menu{
 /* NAV MENU ITEMS STYLES -> GENERAL */
 div.menu-item{
 	width: fit-content;
+	min-width: 24px;
 	height: 1.8rem;
 	padding: 0 0.25em 0.15em 0.25em;
 	text-align: center;
 	font-size: 1.4rem;
-	line-height: 1.4em;
+	line-height: 1.1em;
 	color: rgb(77,87,40);
 	cursor: pointer;
 	border: 1px solid;
@@ -42,8 +43,9 @@ div.menu-item{
 	border-right-color: #1e2024;
 	border-bottom-color: #1e2024;
 	border-left-color: #e2e4e7;
-	background: linear-gradient(to bottom, rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%);
+	background-image: linear-gradient(to bottom, rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%);
 }
+
 div.menu-item:hover{
 	border-bottom: 1px solid #e2e4e7;
 }
@@ -51,6 +53,11 @@ div.menu-item.active{
 	border-bottom: none;
 	color: rgb(163, 163, 163);
 }
+
+#menu_item_2{}
+
+#menu_item_3{}
+
 /* SECTION TOP -> SEPARATOR */
 section.top > .separator{
 	height: 0.2rem;
@@ -130,7 +137,7 @@ details.page-tab[open] .details-spacer{
 	height: 1px;
 }
 details.page-tab.tab-one[open] .details-spacer{
-	left: 154px;
+	left: 164px;
 }
 details.page-tab.tab-two[open] .details-spacer{
 	left: 8px;

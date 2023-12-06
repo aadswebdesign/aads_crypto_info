@@ -111,14 +111,15 @@
 .flag-nl::before{
 	position: relative;
 	top: 2px;
-	content:"\1F1F3 \1F1F1";
-	font-size: 1.2em;
+	left: -1px;
+	content: url("./../../graphics/icons/flag-nl.svg");
 }
 .flag-th::before{
 	position: relative;
 	top: 1px;
-	content:"\1F1F9 \1F1ED";
-	font-size: 1.2em;
+	left: -1px;
+	content: url("./../../graphics/icons/flag-th.svg");
+	text-align: center;
 }
 
 /* DETAILS/SUMMARY BASE STYLES */

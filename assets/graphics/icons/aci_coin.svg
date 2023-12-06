@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<svg viewBox="30 0 272 162" xml:space="preserve" height="100%" width="80%" version="1.1" id="Coin_bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+<svg viewBox="30 0 272 162" height="100%" width="80%" xmlns="http://www.w3.org/2000/svg"> 
 	<defs>
 		<filter id="coin_shadow">
 		  <feDropShadow dx="0.2" dy="0.4" stdDeviation="0.2" flood-color="pink" flood-opacity="0.5" />

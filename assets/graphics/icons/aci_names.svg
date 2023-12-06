@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<svg xml:space="preserve" height="120%" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="120%" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
 	<style>
 		text.coin-text{
 			font: bold 1.8rem "Comic Sans Ms";
@@ -10,7 +9,7 @@
 	<g style='transform: translate(0);'>
 		<text class='coin-text' x='40' y='35'>PureInformational!</text>
 	</g>
-	<g style='transform: translate(0, 57px);'>
+	<g style='transform: translate(0, 50px);'>
 		<text class='coin-text' x='40' y='35'>Blockchain!</text>
 	</g>
 	<g style='transform: translate(0, 100px);'>
@@ -40,8 +39,4 @@
 	<g style='transform: translate(0, 500px);'>
 		<text class='coin-text' x='40' y='35'>PassiveIncome!</text>
 	</g>
-
-
-
-
 </svg>

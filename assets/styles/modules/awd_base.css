@@ -110,7 +110,7 @@
 }
 .flag-nl::before{
 	position: relative;
-	top: 2px;
+	top: 1px;
 	left: -1px;
 	content: url("./../../graphics/icons/flag-nl.svg");
 }
@@ -119,6 +119,13 @@
 	top: 1px;
 	left: -1px;
 	content: url("./../../graphics/icons/flag-th.svg");
+	text-align: center;
+}
+.globe::before{
+	position: relative;
+	top: 1px;
+	left: -1px;
+	content: url("./../../graphics/icons/globe.svg");
 	text-align: center;
 }
 

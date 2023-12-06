@@ -1,9 +1,7 @@
 /** templates/template_1.js */
 import * as FT from './../../factory/functions.js';
-/**
- * @description: English	
- */
-export async function templateOne(){
+/** * @description: English	
+ */export async function templateOne(){
 	const template = `<div id='templateOne' class='template-one relative'>
 		<div class='relative content-block display-flex'>
 			<article class='disclaimer relative'>

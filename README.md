@@ -13,7 +13,7 @@
 <br/>This is vanilla css with not any frameworks involved.
 
 **javascript,**
-<br/>This is vanile js with not any framework involved.
+<br/>This is vanilla js with not any framework involved.
 
 **structure**
 <br/>index.html
